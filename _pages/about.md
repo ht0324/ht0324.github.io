@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Seoul, South Korea. huntae324@gmail.com . The only constant is change.
+subtitle: <a href='#'>Sungkyunkwan University</a>. Seoul, South Korea. 
 
 profile:
   align: right
