@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Sungkyunkwan University</a>. Seoul, South Korea. 
+subtitle: <a href='https://skku.edu/'>Sungkyunkwan University</a>. Seoul, South Korea. 
 
 profile:
   align: right
@@ -16,8 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My name is Hun Tae, a junior student majoring computer science in Sungkyunkwan University.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have also studied at the University of Texas at Austin as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Currently, my research interests are in the area of Natural Language Processing and Artificial General Intelligence.
+
+Other than that, I really like watching movies, listening to music, and reading books. I also like to travel and take pictures. 
