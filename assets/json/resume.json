@@ -60,21 +60,12 @@
       ]
     }
   ],
-  "awards": [],
+  "awards": [
+    {"title": "Dean's List"}
+  ],
   "certificates": [],
   "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "programming": [
+  "skills": [
     {
       "name": "C/C++",
       "level": "Proficient"
@@ -84,6 +75,16 @@
     },{
       "name": "Java",
       "level": "Proficient"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
     }
   ],
   "interests": [],
