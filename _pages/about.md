@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://skku.edu/'>Sungkyunkwan University</a>. Seoul, South Korea. 
+subtitle: <a href='https://skku.edu/eng/'>Sungkyunkwan University</a>, Seoul, South Korea
 
 profile:
   align: right
@@ -20,6 +20,6 @@ Hi there! 👋
 
 My name is Hun Tae, a junior student majoring computer science in Sungkyunkwan University.
 
-I have also studied at the University of Texas at Austin as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Currently, my research interests are in the area of Natural Language Processing and Artificial General Intelligence.
+I have also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Currently, my research interests are in the area of Natural Language Processing and Artificial General Intelligence.
 
-Other than that, I really like watching movies, listening to music, and reading books. I also like to travel and take pictures. 
+Other than that, I greatly enjoy watching movies, listening to music, and reading books. I also like to travel and take pictures. 
