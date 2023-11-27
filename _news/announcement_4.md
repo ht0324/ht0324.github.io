@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got a article posted on [SKKUZINE(Korean)](https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347&pager.offset=0&pagerLimit=10)!
+Got an article of my stay at UT Austin posted on [SKKUZINE(Korean)](https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347&pager.offset=0&pagerLimit=10)!
