@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-My name is Hun Tae, a junior student majoring computer science in Sungkyunkwan University.
+My name is Hun Tae, a senior student majoring computer science in Sungkyunkwan University.
 
 I have also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Currently, my research interests are in the area of Natural Language Processing and Artificial General Intelligence.
 
