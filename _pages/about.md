@@ -22,4 +22,4 @@ My name is Hun Tae, a senior student majoring computer science in Sungkyunkwan U
 
 I have also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Currently, my research interests are in the area of Natural Language Processing and Artificial General Intelligence.
 
-Other than that, I greatly enjoy watching movies, listening to music, and reading books. I also like to daydream about the future of humanity and the universe.
+Other than that, I greatly enjoy watching science fiction movies, listening to music, and reading books(also sci-fi!). I also like to daydream about the future of humanity and the universe.
