@@ -2,7 +2,18 @@
 layout: default
 ---
 <!-- _layouts/cv.html -->
-{% unless site.data.resume %}
+
+{% if page.cv_pdf %}
+  <meta http-equiv="refresh" content="0; url={{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">
+  <script>
+    window.location.href = "{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}";
+  </script>
+{% else %}
+  <!-- Rest of your existing CV HTML content -->
+  <!-- ... -->
+{% endif %}
+
+<!-- {% unless site.data.resume %}
 <div class="post">
 
   <header class="post-header">
@@ -93,4 +104,4 @@ layout: default
   </article>
 
 </div>
-{% endunless %}
+{% endunless %} -->
