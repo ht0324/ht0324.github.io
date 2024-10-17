@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Links/
-title: 
+title: Links
 description: Writings and videos that I find deep and insightful
 nav: true
 nav_order: 3
