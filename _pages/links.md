@@ -4,7 +4,7 @@ permalink: /Links/
 title: 
 description: Writings and videos that I find deep and insightful
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 ### Writings
