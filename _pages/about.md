@@ -24,4 +24,4 @@ I have also studied at the [University of Texas at Austin](https://www.utexas.ed
 
 Other than that, I greatly enjoy watching science fiction movies, and reading books(also sci-fi!).
 
-Feel free to check out my musings on my blog!
+Feel free to check out my musings on my blog, and the links I found insightful!
