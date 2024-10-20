@@ -24,7 +24,7 @@ nav_order: 3
 ### Podcasts
 [Ilya Sutskever: Deep Learning](https://www.youtube.com/watch?v=13CZPWmke6A) by Lex Fridman   
 [Jim Keller: The Future of Computing](https://youtube.com/watch?v=G4hL5Om4IJ4) by Lex Fridman   
-[George Hotz: Tiny Corp](https://youtube.com/watch?v=dNrTrx42DGQ) by Lex Fridman
+[George Hotz: Tiny Corp](https://youtube.com/watch?v=dNrTrx42DGQ) by Lex Fridman   
 [Aravind Srinivas: Perplexity CEO on Future of AI](https://youtube.com/watch?v=e-gwvmhyU7A) by Lex Fridman   
 
 
