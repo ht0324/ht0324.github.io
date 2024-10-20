@@ -18,10 +18,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-My name is Hun Tae, a senior student majoring Computer Science in [Sungkyunkwan University](https://skku.edu/eng/) in Seoul.
+My name is Hun Tae, a senior student majoring in Computer Science at [Sungkyunkwan University](https://skku.edu/eng/) in Seoul.
 
-I have also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I really had a great time there, and I had a privilege to work with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. I also had the privlage to work with [Prof. JinYeong Bak](https://nosyu.kr/) at [HLI Lab](https://hli.skku.edu/). My interests are in the area of Large Language Models and Synthetic Data Generation.
+I also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I had a great time there and had the privilege of working with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Additionally, I had the privilege of working with [Prof. JinYeong Bak](https://nosyu.kr/) at the [HLI Lab](https://hli.skku.edu/). My interests lie in the areas of Large Language Models and Synthetic Data Generation.
 
-Other than that, I greatly enjoy watching science fiction movies, and reading books(also sci-fi!).
+Outside of academics, I greatly enjoy watching science fiction movies, reading books (also sci-fi!), and listening to podcasts by Lex Fridman.
 
-Feel free to check out my musings on my [blog](https://ht0324.github.io/blog/), and the [links](https://ht0324.github.io/Links/) I found insightful!
+Feel free to check out my musings on my [blog](https://ht0324.github.io/blog/) and explore the [links](https://ht0324.github.io/Links/) I've found insightful!

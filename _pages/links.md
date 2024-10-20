@@ -8,8 +8,8 @@ nav_order: 3
 ---
 
 ### Writings
-[The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by Rich Sutton   
-[Stevey's Google Platforms Rant](https://gist.github.com/chitchcock/1281611) by Steve Yegge   
+[**The Bitter Lesson**](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by Rich Sutton   
+[**Stevey's Google Platforms Rant**](https://gist.github.com/chitchcock/1281611) by Steve Yegge   
 [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) by Andrej Karpathy   
 [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace) by Dario Amodei   
 [ChatGPT is a Blurry JPEG of the Web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web) by Ted Chiang   
