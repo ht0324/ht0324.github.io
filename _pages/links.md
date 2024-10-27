@@ -33,6 +33,7 @@ nav_order: 3
 [Valuable Humans In Transit](https://qntm.org/transi) by qntm   
 
 ### Novels
-[Permutation City](https://en.wikipedia.org/wiki/Permutation_City) by Greg Egan   
+[Neuromancer](https://en.wikipedia.org/wiki/Neuromancer) by William Gibson   
 [Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest) by David Foster Wallace   
 [The Three-Body Problem](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) by Liu Cixin   
+[Permutation City](https://en.wikipedia.org/wiki/Permutation_City) by Greg Egan   
