@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-My name is Hun Tae, a senior student majoring in Computer Science at [Sungkyunkwan University](https://skku.edu/eng/) in Seoul.
+My name is Hun Tae, a senior student majoring in Computer Science at [Sungkyunkwan University](https://skku.edu/eng/) in South Korea.
 
 I also studied at the [University of Texas at Austin](https://www.utexas.edu/) as an exchange student for a year. I had a great time there and had the privilege of working with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [UT Austin Systems Level Design](https://radum.ece.utexas.edu/) during my stay. Additionally, I had the privilege of working with [Prof. JinYeong Bak](https://nosyu.kr/) at the [HLI Lab](https://hli.skku.edu/). My interests lie in the areas of Large Language Models and Synthetic Data Generation.
 
