@@ -3,7 +3,7 @@ layout: post
 title: Link Archive - 2024
 date: 2025-01-05 16:40:16
 description: A collection of articles and videos that I read in 2024
-categories: links
+categories: link
 ---
 
 Here's a collection of links that I truly enjoyed reading in 2024. It's not a complete list, as schoolwork often kept me from meticulously tracking everything, but these are the highlights. Moving forward, I'm aiming to share these finds monthly in 2025, with more detail and a broader scope.
