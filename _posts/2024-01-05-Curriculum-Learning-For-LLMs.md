@@ -28,6 +28,8 @@ But if you think about it more, the web contains countless instances of conflict
 
 Considering this, current language models are still very knowledgeable and, while they do hallucinate, they possess some sort of factual world model. This suggests that the pre-training corpus is so vast that conflicting information essentially cancels out, and the model learns the nuances.
 
+---
+
 So, then, is curriculum learning not needed? I think there's a reason that curriculum learning isn't widely researched: its effect is likely very marginal. While the findings are undetermined, I still believe that if curriculum learning is indeed unnecessary, it basically demonstrates the powerful generalization capability of large language models.
 
 I think I'll still have to revise my thoughts on this matter.
