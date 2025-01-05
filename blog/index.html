@@ -51,23 +51,6 @@ pagination:
   </div>
   {% endif %}
 
-  <!-- Your commentary goes here -->
-<div class="my-commentary">
-  <p>Welcome to my garden! This is a short guide of how to navigate my blog, as there's a lot going on. I post about a variety of topics and categories, so I've used hashtags and tags to separate posts by topic.</p>
-
-  <p>Hashtags are used to categorize the various topics I explore. However, the tags are more important for navigation.</p>
-
-  <p>The <strong>"Blog"</strong> tag mainly contains polished writing. These are posts where I have clearly articulated my thoughts and spent time proofreading to ensure they are proper blog posts.</p>
-
-  <p>Another tag is <strong>"Rambling."</strong> This tag contains my unfiltered thoughts, recorded in an unrestricted way. Here, I explore my ideas freely, and you will find a different kind of value and enjoyment compared to the polished blog posts.</p>
-
-  <p>The <strong>"Link"</strong> tag serves as a link archive. It's an archive of articles I've read and videos I've watched that I found insightful. There are many things I want to share with you, and this tag serves as an archive.</p>
-
-  <p>Based on these tags, I believe you can easily find what I'm interested in promptly and conveniently. I hope you enjoy my garden and my food for thought!</p>
-</div>
-<!-- End of commentary -->
-
-
   {% assign featured_posts = site.posts | where: "featured", "true" %}
   {% if featured_posts.size > 0 %}
     <br>
