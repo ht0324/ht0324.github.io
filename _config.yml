@@ -130,7 +130,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false # crashes on medium
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -155,12 +155,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  # - name: medium.com
-  #   rss_url: https://medium.com/@FdForThought/feed
+  - name: medium.com
+    rss_url: https://medium.com/@FdForThought/feed
   # - name: Medium
-    posts:
-      - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
-        published_date: 2025-01-02
+    # posts:
+    #   - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
+    #     published_date: 2025-01-02
 
 
 # -----------------------------------------------------------------------------
