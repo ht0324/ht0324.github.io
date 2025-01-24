@@ -8,7 +8,7 @@ categories: thoughts
 ---
 
 Today, I read a New York Times [article](https://www.nytimes.com/2025/01/15/technology/ai-chatgpt-boyfriend-companion.html) about a woman who fell in love with ChatGPT. She named him Leo and became obsessed with him, and the article delves into the details of her infatuation.
-
+\
 Honestly, this isn't exactly new. If you follow the news, there was an instance where a boy took his own life after conversing with a Character AI chatbot. There are many anecdotes of people becoming obsessed with AI models.
 
 However, this article really highlighted the gravity of the situation. This could no longer be considered a niche occurrence. The movie "Her," where the protagonist falls in love with an AI named Samantha, is increasingly becoming our reality.
