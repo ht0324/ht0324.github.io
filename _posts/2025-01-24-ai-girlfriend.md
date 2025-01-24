@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Samantha is here
-date: 2025-01-24 14:40:16
+date: 2025-01-23 14:40:16
 description: Some thoughts on the increasing intimacy between humans and AI
 tags: AI
 categories: thoughts
 ---
 
-Today, I read a New York Times article about a woman who fell in love with ChatGPT. She named him Leo and became obsessed with him, and the article delves into the details of her infatuation.
+Today, I read a New York Times [article](https://www.nytimes.com/2025/01/15/technology/ai-chatgpt-boyfriend-companion.html) about a woman who fell in love with ChatGPT. She named him Leo and became obsessed with him, and the article delves into the details of her infatuation.
 
 Honestly, this isn't exactly new. If you follow the news, there was an instance where a boy took his own life after conversing with a Character AI chatbot. There are many anecdotes of people becoming obsessed with AI models.
 
