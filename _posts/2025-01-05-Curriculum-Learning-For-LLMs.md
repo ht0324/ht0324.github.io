@@ -23,6 +23,7 @@ My perspective shifted when I listened to a podcast featuring Yann LeCun and Gar
 
 Back in 2019, models like ChatGPT and GPT-3 didn't exist, and the ability of models to understand language and exhibit common sense reasoning was limited. The assessments made by LeCun and Marcus, while accurate for their time, are outdated in the current landscape.
 
+<br />
 **The Challenge of Outdated Information**
 
 A significant challenge arises from the fact that current large language models are pre-trained on massive datasets encompassing information from across the globe and various time periods. These datasets inevitably contain outdated information. For example, a statement from a prominent scientist in 2010 claiming that deep learning had hit a dead end would have been accurate then but is demonstrably false today.
@@ -32,7 +33,7 @@ During pre-training, language models struggle to discern the temporal validity o
 As time progresses, the volume of current, up-to-date information will naturally increase. Could we simply dilute the outdated data with newer information? The pre-training stage, as far as I understand, is relatively straightforward, involving next-token prediction and backpropagation across the entire corpus.
 
 There doesn't seem to be any inherent mechanism within this process to handle the issue of outdated information. I'm currently unsure how to effectively address this challenge.
-
+<br />
 **The Paradox of Conflicting Information**
 
 However, upon further reflection, the internet is replete with conflicting information. For instance, one can find sources claiming that global warming is false, while others assert its undeniable truth. Furthermore, there's a vast amount of literature, like novels, that are fictional and not meant to be factual.

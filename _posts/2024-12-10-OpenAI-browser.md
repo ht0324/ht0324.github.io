@@ -15,6 +15,8 @@ While using Gmail, I found myself repeatedly copy-pasting previous email history
 
 But what if OpenAI controlled the browser? Since we typically use browsers for most computer activities, a custom browser could seamlessly provide context to the chatbot. Imagine using Gmail within an OpenAI browser. Instead of manually pasting information, you could simply ask the browser to draft an email based on your current context, and it would do so effortlessly.
 
+---
+
 **Seamless Integration and Potential Implementations**
 
 This realization led me to ponder how OpenAI could make this experience truly seamless. Would there be a persistent chat box that needs to be toggled? There are numerous potential implementations, and I struggled to envision the most effective one.
@@ -22,6 +24,8 @@ This realization led me to ponder how OpenAI could make this experience truly se
 Currently, I create new chat sessions in ChatGPT for different tasks or workflows. However, if the browser maintained a history of all my interactions, it could guide me through tasks more fluidly. For example, I might use ChatGPT to draft an email to a professor.
 
 Later, I might start a new chat to research that professor. With a context-aware browser, these tasks could be interwoven. After researching the professor using the browser's integrated AI, I could then ask it to draft an email, and it would utilize the information gathered during the research phase.
+
+---
 
 **The Browser as the Ultimate Personal Context**
 
