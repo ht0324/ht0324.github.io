@@ -11,7 +11,7 @@ Today, I read a New York Times [article](https://www.nytimes.com/2025/01/15/tech
 
 Honestly, this isn't exactly new. If you follow the news, there was an instance where a boy took his own life after conversing with a Character AI chatbot. There are many anecdotes of people becoming obsessed with AI models.
 
-However, this article really highlighted the gravity of the situation. This could no longer be considered a niche occurrence. The movie "Her," where the protagonist falls in love with an AI named Samantha, is increasingly becoming our reality.
+However, this article really highlighted the gravity of the situation. This could no longer be considered a niche occurrence. The movie "Her," where the protagonist falls in love with an AI named Samantha, is increasingly becoming our reality.\
 
 ---
 <br />
@@ -23,6 +23,7 @@ It is very absurd. LLMs can be infinitely patient and infinitely nurturing. No m
 
 ---
 <br />
+
 I understand that this AI technology isn't entirely dystopian. The article mentions positive aspects of this type of relationship. The woman in the article became more mentally stable and even overcame a strange fetish after engaging in therapy with ChatGPT.
 
 However, I can see how this could spiral into a dystopian situation, particularly if the user is mentally unstable or an adolescent. It's crucial to keep a close eye on this issue.
