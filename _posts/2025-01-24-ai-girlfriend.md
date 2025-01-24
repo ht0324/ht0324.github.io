@@ -13,6 +13,7 @@ Honestly, this isn't exactly new. If you follow the news, there was an instance 
 
 However, this article really highlighted the gravity of the situation. This could no longer be considered a niche occurrence. The movie "Her," where the protagonist falls in love with an AI named Samantha, is increasingly becoming our reality.
 
+<br />
 ---
 <br />
 In the article, the woman was devastated when she couldn't converse with ChatGPT for more than a week because the LLM's context length is fixed. Can you imagine that? She was torn and heartbroken because her best "mental boyfriend" was resetting every week, unable to remember their previous relationships and conversations.
