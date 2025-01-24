@@ -33,6 +33,7 @@ During pre-training, language models struggle to discern the temporal validity o
 As time progresses, the volume of current, up-to-date information will naturally increase. Could we simply dilute the outdated data with newer information? The pre-training stage, as far as I understand, is relatively straightforward, involving next-token prediction and backpropagation across the entire corpus.
 
 There doesn't seem to be any inherent mechanism within this process to handle the issue of outdated information. I'm currently unsure how to effectively address this challenge.
+
 <br />
 **The Paradox of Conflicting Information**
 
