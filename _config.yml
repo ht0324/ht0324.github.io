@@ -158,12 +158,10 @@ external_sources:
   # - name: medium.com
   #   rss_url: https://medium.com/@FdForThought/feed
   # - name: Medium
-  #   posts:
-  #     - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
-  #       published_date: 2025-01-02
-  #       categories: blog
-  #       tags: AI
-  #       featured: true
+    posts:
+      - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
+        published_date: 2025-01-02
+
 
 # -----------------------------------------------------------------------------
 # Collections
