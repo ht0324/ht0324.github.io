@@ -157,13 +157,13 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@FdForThought/feed
-  - name: Medium
-    posts:
-      - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
-        published_date: 2024-05-14
-        categories: blog
-        tags: AI
-        featured: true
+  # - name: Medium
+  #   posts:
+  #     - url: https://medium.com/@FdForThought/do-llms-possess-an-internal-state-of-mind-20329217f124
+  #       published_date: 2025-01-02
+  #       categories: blog
+  #       tags: AI
+  #       featured: true
 
 # -----------------------------------------------------------------------------
 # Collections
