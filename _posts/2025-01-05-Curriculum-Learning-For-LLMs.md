@@ -15,6 +15,8 @@ However, I couldn't find much literature exploring this idea in depth, except fo
 
 The sheer volume and variety of data would mean the model would eventually encounter all parts of the dataset, regardless of the order. This conclusion led me to prematurely end my investigation.
 
+---
+<br />
 **A Shift in Perspective**
 
 My perspective shifted when I listened to a podcast featuring Yann LeCun and Gary Marcus, interviewed by Lex Fridman. It struck me that these interviews were conducted five years ago, in 2019. In the rapidly evolving field of machine learning, half a decade is an eternity.
@@ -37,6 +39,8 @@ However, upon further reflection, the internet is replete with conflicting infor
 
 Despite this, current language models demonstrate a considerable degree of knowledge and, while prone to hallucinations, possess a semblance of a factual world model. This suggests that the sheer vastness of the pre-training corpus might be a factor. It's possible that conflicting information effectively cancels each other out, allowing the model to learn the nuances of different perspectives.
 
+---
+<br />
 **Reconsidering Curriculum Learning**
 
 This leads to the question: is curriculum learning then unnecessary? I suspect that the limited research on curriculum learning for large language models might be due to its marginal impact.

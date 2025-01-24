@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.skku.edu/eng/'>Sungkyunkwan University</a>, Seoul, South Korea
+subtitle: Seoul, South Korea
 
 profile:
   align: right
