@@ -20,6 +20,7 @@ In the article, the woman was devastated when she couldn't converse with ChatGPT
 It's like the friend you love is having periodic amnesia. Every time it happened, she would cry over it and abstain for a couple of days, but then she would start again. She would set up a new version, and now she is on version 20.
 
 It is very absurd. LLMs can be infinitely patient and infinitely nurturing. No matter what you throw at it, it will be infinitely generous to you. All of this is not new, as I've mentioned. However, the article really conveys a sense of gravity regarding how society is already changing and how individuals are reacting to it.
+<br />
 
 ---
 <br />
