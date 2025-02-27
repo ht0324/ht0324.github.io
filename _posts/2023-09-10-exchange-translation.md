@@ -7,7 +7,7 @@ tags: life
 categories: blog
 ---
 
-[Original Article (in Korean)](https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347&pager.offset=0&pagerLimit=10)
+[Original Article (in Korean)](https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347)
 
 This article is a reflection on my experience as an exchange student at the University of Texas at Austin (UT Austin) from the Fall 2022 to Spring 2023 semester. I'll share my journey, from the visa application process to academic life, cultural experiences, and personal growth. This is a guide for prospective exchange students, particularly those from Sungkyunkwan University, offering insights into what to expect and how to make the most of your time at UT Austin.
 
