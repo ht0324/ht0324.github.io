@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Links - Feb 2025
+title: Link Archive - Feb 2025
 date: 2025-02-28 22:59:59
 description: A collection of articles and videos that I read in February 2025.
 tags: AI
