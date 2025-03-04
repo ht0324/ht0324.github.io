@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Link Archive - 2025 - February
+title: Links - Feb 2025
 date: 2025-02-28 22:59:59
 description: A collection of articles and videos that I read in February 2025.
 tags: AI
@@ -11,7 +11,7 @@ Another month, another batch of interesting links I've come across. Here's what 
 
 ---
 
-**[DeepSeek, China, OpenAI, and AI Megaclusters | Lex Fridman Podcast #459](https://youtube.com/watch?v=_1f-o0nqpEI)**
+**[DeepSeek, China, OpenAI, and AI Megaclusters - Lex Fridman Podcast #459](https://youtube.com/watch?v=_1f-o0nqpEI)**
 
 *   I first encountered Dylan Patel on the Dwarkesh podcast with Aginometry, so I was glad to see him on Lex Fridman's. He specializes in analyzing AI hyperscalers, so his insights are incredibly in-depth. Basically, it's a must-watch if you're interested in the infrastructure side of things.
 
@@ -44,5 +44,5 @@ Another month, another batch of interesting links I've come across. Here's what 
 *   This startup called Sesame showcases a really interesting voice-to-voice language model. They have a demo, and it works quite well. The key difference between Sesame and ChatGPT's Advanced Voice Mode is that the model produces nuanced tones, like "ums" and "ahs," very naturally. It feels incredibly realistic. For the first 10 minutes, I was blown away. But as I probed the model further, it became clear it doesn't possess the same level of intelligence as LLMs. The same goes for ChatGPT's Advanced Voice Mode; OpenAI seems to have significantly limited the model to comply with their guidelines. In Sesame's case, I suspect the limitations are purely due to model and computational constraints.
 
 ---
-
+<br />
 Hope you enjoyed this month’s picks—March should bring even more to explore!

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Link Archive - Jan 2025
+title: Links - Jan 2025
 date: 2025-01-31 23:59:59
 description: A collection of articles and videos that I read in January 2025.
 tags: AI
@@ -27,11 +27,11 @@ A curated list of links I found insightful in January 2025. This is the first of
 
 *   I initially knew François Chollet due to his activity on Twitter as an AI skeptic (or, at least, *somewhat* of an AI skeptic) and his work on ARC prizes. So, it was exciting to see him interviewed by Dwarkesh Patel. I really enjoyed it because Dwarkesh grilled François on his views on LLMs. I think Dwarkesh's approach was a bit unfair because, while François made some valid points, Dwarkesh seemed intent on pushing him to say what *he* wanted, but he ultimately failed to do so. While listening, I felt torn between them. I agree with Dwarkesh's overall viewpoint but align with François's specifics regarding intelligence and the core of reasoning. It was a conflicting yet invigorating discussion, and I think I should re-watch it to savor it more.
 
-**[François Chollet: Keras, Deep Learning, and the Progress of AI | Lex Fridman Podcast #38](https://youtube.com/watch?v=Bo8MY4JpiXE)**
+**[François Chollet: Keras, Deep Learning, and the Progress of AI - Lex Fridman Podcast #38](https://youtube.com/watch?v=Bo8MY4JpiXE)**
 
 *   After the Dwarkesh podcast, I turned to Lex Fridman's podcast to hear more from François Chollet. And, in classic Lex Fridman fashion, he delivered. This first one is an earlier interview from 2019, when François was much younger. In current public settings, François appears more glum and calm, but in this interview, I could see a sparkle and a smile in his eyes and on his face, which was refreshing. This podcast delves into the advent of Keras and TensorFlow, which I really enjoyed.
 
-**[François Chollet: Measures of Intelligence | Lex Fridman Podcast #120](https://youtube.com/watch?v=PUAdj3w3wO4)**
+**[François Chollet: Measures of Intelligence - Lex Fridman Podcast #120](https://youtube.com/watch?v=PUAdj3w3wO4)**
 
 *   In this podcast, both François and Lex are a bit older. I watched this because I was simultaneously reading François's paper on the measure of intelligence. He's soft-spoken but offers insightful perspectives on intelligence. While I don't agree with everything he says—I believe that LLMs and other AI systems are capable of more generalization than François suggests—I think his views as an AI skeptic aren't unfounded. His logic is sound, but I believe he underestimates the intuitive power of these machine learning systems.
 
@@ -56,6 +56,5 @@ A curated list of links I found insightful in January 2025. This is the first of
 *   It's pretty interesting to see Amodei's reaction to this, and I think he's right. If you're on the American side, the most logical thing to do is to clamp down on AI exports—specifically, chip exports. But the thing is, those chip exports... the Biden administration didn't constrain the chips on the bandwidth side, so that's why DeepSeek had a workaround utilizing maximum bandwidth. But if they clamp down on both bandwidth and compute, I'm not sure that would be the fundamental solution to this arms race.
 
 ---
-
-
+<br />
 That’s it for January! I’m excited to keep exploring and sharing more in the months ahead—hope you found something thought-provoking here.
