@@ -1,8 +1,0 @@
-2025-02-27 11:47:44,411 - blog_generator - INFO - Groq client initialized successfully
-2025-02-27 11:48:21,970 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-02-27 11:48:22,221 - blog_generator - INFO - Successfully generated YAML header from LLM
-2025-02-27 11:48:22,224 - blog_generator - INFO - Created temporary file for preview: /var/folders/kq/ptc6x0zs691_n3yhwmwmlxd40000gp/T/tmpw3h7k7jl.md
-2025-02-27 11:48:52,399 - blog_generator - INFO - File saved: /Users/huntae/2025-02-27-curriculum-learning-for-large-language-models.md
-2025-02-27 11:48:56,317 - blog_generator - INFO - File saved: /Users/huntae/2025-02-27-curriculum-learning-for-large-language-models.md
-2025-02-27 11:48:59,318 - blog_generator - INFO - File saved: /Users/huntae/2025-02-27-curriculum-learning-for-large-language-models.md
-2025-02-27 11:48:59,367 - blog_generator - ERROR - Git error: Not in a git repository. Please save the file inside a git repository.
