@@ -19,32 +19,32 @@ pagination:
   {% assign blog_description_size = site.blog_description | size %}
 
   {% if blog_name_size > 0 or blog_description_size > 0 %}
-  <div class="header-bar">
+  <div class="header-bar" style="padding-top: 1.5rem; padding-bottom: 2.25rem;">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h2 style="font-weight: 800; font-size: 2.25rem;">{{ site.blog_description }}</h2>
   </div>
   {% endif %}
 
   {% if site.display_tags or site.display_categories %}
   <div class="tag-category-list">
-    <ul class="p-0 m-0">
+    <ul class="p-0 m-0" style="display: flex; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: thin; padding-bottom: 5px;">
       {% for tag in site.display_tags %}
-        <li>
+        <li style="display: inline-block; flex-shrink: 0;">
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          <p style="display: inline-block; margin: 0 5px;">&bull;</p>
         {% endunless %}
       {% endfor %}
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
+        <p style="display: inline-block; margin: 0 5px;">&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
-        <li>
+        <li style="display: inline-block; flex-shrink: 0;">
           <i class="fas fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          <p style="display: inline-block; margin: 0 5px;">&bull;</p>
         {% endunless %}
       {% endfor %}
     </ul>
@@ -53,11 +53,10 @@ pagination:
 
   {% assign featured_posts = site.posts | where: "featured", "true" %}
   {% if featured_posts.size > 0 %}
-    <br>
-    <div class="container featured-posts">
+    <div class="container featured-posts" style="margin-top: 1rem;">
       <div class="row">
       {% for post in featured_posts %}
-        <div class="card-item col-12 mb-4">
+        <div class="card-item col-12 mb-3">
           <a href="{{ post.url | relative_url }}">
             <div class="card hoverable">
               <div class="row g-0">
@@ -90,7 +89,7 @@ pagination:
       {% endfor %}
       </div>
     </div>
-    <hr>
+    <hr style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
   {% endif %}
 
   <ul class="post-list">
