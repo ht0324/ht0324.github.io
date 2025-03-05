@@ -5,6 +5,7 @@ date: 2025-02-12 12:00:00
 description: A firsthand experience with the MMLU benchmark
 tags: AI
 categories: thoughts
+featured: true
 giscus_comments: true
 ---
 
@@ -26,11 +27,11 @@ The MMLU questions are non-trivial. They require a significant breadth and depth
 <br />
 **Shattering Self-Esteem (in a Good Way)**
 
-The blog post's title, "Are you smarter than an LLM?", is provocative for a reason. In the context of the MMLU, I had to admit that, in many cases, I wasn't smarter than the LLM. My score was lower. This isn't a statement about overall intelligence, of course, but it is a powerful indicator of the superhuman capabilities LLMs are developing in specific domains.
+The blog post's title is provocative for a reason. In the context of the MMLU, I had to admit that, in many cases, I wasn't smarter than the LLM. My score was lower. This isn't a statement about overall intelligence, of course, but it is a powerful indicator of the superhuman capabilities LLMs are developing in specific domains.
 
 I think many people, even those who follow AI advancements, still hold onto a sense of human exceptionalism. We see LLMs achieving high benchmark scores, but we might subconsciously maintain a belief that we're "still special" in some way. This interactive test directly challenges that notion. It forces you to confront the reality that, in certain areas, LLMs are already surpassing human performance.
 
-While MMLU is currently a very saturated benchmark, it's important to remember that there are many other, even more challenging evaluations out there. For example, Dan Hendrycks' "Humanities Final Exam" benchmark features problems so difficult that even Terence Tao participated in their creation. These are exceptionally hard questions, and I doubt I could answer even one correctly.
+While MMLU is currently a very saturated benchmark, it's important to remember that there are many other, even more challenging evaluations out there. For example, [FrontierMath](https://epoch.ai/frontiermath) benchmark features problems so difficult that requires several hours or days of work by expert mathematicians. Even Terence Tao participated in its creation. These are exceptionally hard questions, and I am highly skeptical I could answer even one correctly.
 
 Yet, even on these incredibly demanding benchmarks, LLMs are starting to achieve non-zero scores, albeit low percentages. And I see no reason why they won't continue to improve.
 

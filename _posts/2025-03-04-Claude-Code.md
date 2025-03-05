@@ -14,18 +14,18 @@ Today, I used [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/
 <br />
 **Claude's Agentic Capabilities**
 
-Claude Code is basically Claude 3.7 Sonnet, which has been updated by Anthropic to have more agentic capabilities. They’ve essentially wrapped it with tools that can run commands and execute terminal operations. Claude can see your repository, view your file directory, edit files, and execute terminal commands. So, yeah, it has much more agency.
+Claude Code is basically [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet), which has been updated by Anthropic to have more agentic capabilities. They’ve essentially wrapped it with tools that can run commands and execute terminal operations. Claude can see your repository, view your file directory, edit files, and execute terminal commands. So, yeah, it has much more agency.
 
 I needed to quickly prototype an app that hosts images, allows filtering by tags, and enables image similarity search. And lo and behold, after just 2-3 hours, I had a functioning prototype.
 
-I haven’t used Cursor AI, the VS Code variant that gained traction some time ago and was widely praised by people in the Bay Area. But maybe now I’m experiencing the epiphany that Cursor users had. The experience wasn’t just about typing in my query and having Claude do everything from start to finish - it felt more like pair programming.
+I haven’t used [Cursor](https://www.cursor.com/), the VS Code variant that gained traction some time ago and was widely praised by people in the Bay Area. But maybe now I’m experiencing the epiphany that Cursor users had. The experience wasn’t just about typing in my query and having Claude do everything from start to finish - it felt more like pair programming.
 
 It gave me the sense that there was a person behind the terminal, troubleshooting issues and debugging with me. Of course, Claude wasn’t perfect, but the back-and-forth, iterative process was refreshing and much more engaging than just randomly encountering errors and sifting through Stack Overflow links to fix them.
 
 <br />
 **A New Kind of Collaboration(?)**
 
-It was a massive time-saver. I provided high-level directions, Claude executed them, and when problems arose, we solved them together. The biggest revelation was how collaborative the process felt - it was much easier and more efficient than doing everything on my own, or using a chat interface.
+It was a massive time-saver. I provided high-level directions, Claude executed them, and when problems arose, we solved them together. The biggest surprise was how collaborative the process felt - it was much easier and more efficient than doing everything on my own, or switching back and fourth using a chat interface.
 
 If I had done this single-handedly, it would have taken days. But for just $3.50 in API costs (which might seem expensive depending on your threshold), I built a prototype that I’m pretty confident in within 2–3 hours.
 
@@ -53,3 +53,5 @@ I’ve recently seen posts on [X](https://x.com/David_Kasten/status/189335777670
 In terms of intelligence, today’s top LLMs are already more knowledgeable than humans. But in terms of agency, humans still have the upper hand. However, after my interaction with Claude Code, I caught a glimpse of a future where machines will reach agency supremacy as well. When that happens, it won’t be collaboration - it will be a full [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU)(outdated, but still relevant).
 
 I encourage everyone reading this to try it for themselves. Hearing about it isn’t the same as experiencing it firsthand. Maybe I’m exaggerating, but I stand by my belief that this kind of automation is a matter of when, not if. And this is the worst this technology will ever be, it’s only going to get better from here.
+
+<br />
