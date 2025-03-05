@@ -7,7 +7,7 @@ tags: AI
 categories: thoughts
 ---
 
-**OpenAI's Custom Browser: A Revelation**
+**OpenAI's Custom Browser**
 
 I recently heard rumors about OpenAI developing a custom browser. Initially, I was puzzled by this move. However, after using ChatGPT extensively, I had a revelation.
 
