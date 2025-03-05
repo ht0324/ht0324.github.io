@@ -452,6 +452,82 @@ html body * {
   font-family: var(--font-body);
 }
 
+// Custom pagination styling
+.pagination {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  
+  .page-item {
+    margin: 0 0.3rem;
+    
+    &:first-child .page-link {
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+      padding-left: 1.5rem;
+    }
+    
+    &:last-child .page-link {
+      border-top-right-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+      padding-right: 1.5rem;
+    }
+    
+    .page-link {
+      border-radius: 2rem;
+      border: none;
+      background-color: var(--tag-bg-light);
+      color: var(--tag-color-light);
+      font-weight: 500;
+      padding: 0.7rem 1.3rem;
+      font-size: 1.1rem;
+      min-width: 2.8rem;
+      text-align: center;
+      transition: var(--transition-standard);
+      
+      &:hover {
+        background-color: var(--tag-hover-bg-light);
+        color: var(--tag-hover-color-light);
+      }
+    }
+    
+    &.active .page-link {
+      background-color: var(--global-theme-color);
+      color: white;
+      
+      &:hover {
+        background-color: var(--global-theme-color);
+        color: white;
+      }
+    }
+    
+    &.disabled .page-link {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+body.dark {
+  .pagination {
+    .page-item {
+      .page-link {
+        background-color: var(--tag-bg-dark);
+        color: var(--tag-color-dark);
+        
+        &:hover {
+          background-color: var(--tag-hover-bg-dark);
+          color: var(--tag-hover-color-dark);
+        }
+      }
+      
+      &.active .page-link {
+        background-color: var(--global-theme-color);
+        color: white;
+      }
+    }
+  }
+}
+
 // Default font weight for all text elements
 html body p,
 html body div,
