@@ -4,7 +4,7 @@ title: Claude Code
 date: 2025-03-04 10:59:59
 description: My experience with Claude Code for rapid prototyping, debugging, and implications of AI agency
 tags: AI 
-categories: blog thoughts
+categories: Blog Thoughts
 giscus_comments: true
 ---
 

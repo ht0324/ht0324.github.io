@@ -4,7 +4,7 @@ title: The Potential of an OpenAI Browser
 date: 2024-12-10 16:40:16
 description: The browser is the ultimate personal context tool
 tags: AI
-categories: thoughts
+categories: Thoughts
 giscus_comments: true
 ---
 

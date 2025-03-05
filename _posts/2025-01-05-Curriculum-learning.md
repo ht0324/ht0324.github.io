@@ -4,7 +4,7 @@ title: Curriculum learning for LLMs?
 date: 2025-01-05 14:40:16
 description: How can we address the discrepancy caused by the outdatedness of the training data for large language models?
 tags: AI
-categories: thoughts
+categories: Thoughts
 giscus_comments: true
 ---
 

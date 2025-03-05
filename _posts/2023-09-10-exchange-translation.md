@@ -4,7 +4,7 @@ title: Reflections on My Exchange Program at UT Austin
 date: 2023-09-10 16:40:16
 description: A detailed reflection/translation on my exchange program
 tags: life
-categories: blog
+categories: Blog
 giscus_comments: true
 ---
 

@@ -4,7 +4,7 @@ title: Samantha is here
 date: 2025-01-23 14:40:16
 description: Some thoughts on the increasing intimacy between humans and AI
 tags: AI
-categories: thoughts
+categories: Thoughts
 giscus_comments: true
 ---
 

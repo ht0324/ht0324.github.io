@@ -4,7 +4,7 @@ title: Are You Smarter Than an LLM?
 date: 2025-02-12 12:00:00
 description: A firsthand experience with the MMLU benchmark
 tags: AI
-categories: thoughts
+categories: Thoughts
 featured: true
 giscus_comments: true
 ---
