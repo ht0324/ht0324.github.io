@@ -12,12 +12,18 @@ Today, I used [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/
 
 ---
 <br />
+**Claude's Agentic Capabilities**
 
 Claude Code is basically Claude 3.7 Sonnet, which has been updated by Anthropic to have more agentic capabilities. They’ve essentially wrapped it with tools that can run commands and execute terminal operations. Claude can see your repository, view your file directory, edit files, and execute terminal commands. So, yeah, it has much more agency.
 
 I needed to quickly prototype an app that hosts images, allows filtering by tags, and enables image similarity search. And lo and behold, after just 2-3 hours, I had a functioning prototype.
 
-I haven’t used Cursor AI, the VS Code variant that gained traction some time ago and was widely praised by people in the Bay Area. But maybe now I’m experiencing the epiphany that Cursor users had. The experience wasn’t just about typing in my query and having Claude do everything from start to finish - it felt more like pair programming. It gave me the sense that there was a person behind the terminal, troubleshooting issues and debugging with me. Of course, Claude wasn’t perfect, but the back-and-forth, iterative process was refreshing and much more engaging than just randomly encountering errors and sifting through Stack Overflow links to fix them.
+I haven’t used Cursor AI, the VS Code variant that gained traction some time ago and was widely praised by people in the Bay Area. But maybe now I’m experiencing the epiphany that Cursor users had. The experience wasn’t just about typing in my query and having Claude do everything from start to finish - it felt more like pair programming.
+
+It gave me the sense that there was a person behind the terminal, troubleshooting issues and debugging with me. Of course, Claude wasn’t perfect, but the back-and-forth, iterative process was refreshing and much more engaging than just randomly encountering errors and sifting through Stack Overflow links to fix them.
+
+<br />
+**A New Kind of Collaboration**
 
 It was a massive time-saver. I provided high-level directions, Claude executed them, and when problems arose, we solved them together. The biggest revelation was how collaborative the process felt - it was much easier and more efficient than doing everything on my own. If I had done this single-handedly, it would have taken days. But for just $3.50 in API costs (which might seem expensive depending on your threshold), I built a prototype that I’m pretty confident in within 2–3 hours.
 
