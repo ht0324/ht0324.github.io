@@ -12,6 +12,7 @@ Today, I used [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/
 
 ---
 <br />
+
 Claude Code is basically Claude 3.7 Sonnet, which has been updated by Anthropic to have more agentic capabilities. They’ve essentially wrapped it with tools that can run commands and execute terminal operations. Claude can see your repository, view your file directory, edit files, and execute terminal commands. So, yeah, it has much more agency.
 
 I needed to quickly prototype an app that hosts images, allows filtering by tags, and enables image similarity search. And lo and behold, after just 2-3 hours, I had a functioning prototype.
@@ -30,6 +31,7 @@ Looking at the trajectory of AI progress, though, I don’t think this collabora
 
 ---
 <br />
+
 I’ve recently seen posts on [X](https://x.com/David_Kasten/status/1893357776702976286) of anecdotes that from recruiters at DeepMind and OpenAI who now assume that junior staffs are AI replaceable. I was initially skeptical of this claim, but now I believe it. Also, in Andrej Karpathy’s [post](https://x.com/karpathy/status/1894099637218545984), he argues that agency is more valuable than intelligence. This struck me as profound.
 
 In terms of intelligence, today’s top LLMs are already more knowledgeable than humans. But in terms of agency, humans still have the upper hand. However, after my interaction with Claude Code, I caught a glimpse of a future where machines will reach agency supremacy as well. When that happens, it won’t be collaboration - it will be full replacement. And that’s what worries me.

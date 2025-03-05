@@ -8,7 +8,7 @@ categories: thoughts
 giscus_comments: true
 ---
 
-I recently came across a fascinating and, frankly, humbling interactive blog post titled "[Are you smarter than an LLM?](https://d.erenrich.net/are-you-smarter-than-an-llm/index.html)". It's a simple concept, but the execution and the implications are profound.
+I recently came across a fascinating and, frankly, humbling interactive blog post titled ["Are you smarter than an LLM?"](https://d.erenrich.net/are-you-smarter-than-an-llm/index.html). It's a simple concept, but the execution and the implications are profound.
 
 The post directly pits the user against a large language model in answering questions from the Massive Multitask Language Understanding (MMLU) benchmark. This experience forced me to confront some preconceived notions I had about LLM capabilities and the meaning of benchmark scores.
 
