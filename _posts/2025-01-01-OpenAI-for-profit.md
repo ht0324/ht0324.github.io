@@ -5,6 +5,7 @@ date: 2025-01-01 14:40:16
 description: An unpopular opinion on OpenAI's transition to a for-profit
 tags: AI
 categories: thoughts
+giscus_comments: true
 ---
 
 

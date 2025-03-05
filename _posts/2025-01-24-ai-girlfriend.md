@@ -5,6 +5,7 @@ date: 2025-01-23 14:40:16
 description: Some thoughts on the increasing intimacy between humans and AI
 tags: AI
 categories: thoughts
+giscus_comments: true
 ---
 
 Today, I read a New York Times [article](https://www.nytimes.com/2025/01/15/technology/ai-chatgpt-boyfriend-companion.html) about a woman who fell in love with ChatGPT. She named him Leo and became obsessed with him, and the article delves into the details of her infatuation.

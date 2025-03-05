@@ -5,6 +5,7 @@ date: 2024-12-10 16:40:16
 description: The browser is the ultimate personal context tool
 tags: AI
 categories: thoughts
+giscus_comments: true
 ---
 
 **OpenAI's Custom Browser**

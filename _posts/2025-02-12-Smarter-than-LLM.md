@@ -5,6 +5,7 @@ date: 2025-02-12 12:00:00
 description: A firsthand experience with the MMLU benchmark
 tags: AI
 categories: thoughts
+giscus_comments: true
 ---
 
 I recently came across a fascinating and, frankly, humbling interactive blog post titled "[Are you smarter than an LLM?](https://d.erenrich.net/are-you-smarter-than-an-llm/index.html)". It's a simple concept, but the execution and the implications are profound.

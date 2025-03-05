@@ -5,6 +5,7 @@ date: 2025-01-05 14:40:16
 description: How can we address the discrepancy caused by the outdatedness of the training data for large language models?
 tags: AI
 categories: thoughts
+giscus_comments: true
 ---
 
 I was previously aware of Curriculum Learning, a concept introduced by Yoshua Bengio. The idea is quite appealing: you train a model with a curriculum, starting with easier data and progressing to harder datasets. This approach is believed to enhance the model's ability to learn and generalize.

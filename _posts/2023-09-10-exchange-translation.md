@@ -5,6 +5,7 @@ date: 2023-09-10 16:40:16
 description: A detailed reflection/translation on my exchange program
 tags: life
 categories: blog
+giscus_comments: true
 ---
 
 [Original Article (in Korean)](https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347)
