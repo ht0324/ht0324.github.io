@@ -48,8 +48,8 @@ Looking at the trajectory of AI progress, though, I don’t think this collabora
 <br />
 **The Inevitable Shift**
 
-I’ve recently seen posts on [X](https://x.com/David_Kasten/status/1893357776702976286) of anecdotes that from recruiters at DeepMind and OpenAI who now assume that junior staffs are AI replaceable. I was initially skeptical of this claim, but now I believe it. Also, in Andrej Karpathy’s [post](https://x.com/karpathy/status/1894099637218545984), he argues that agency is more valuable than intelligence. This struck me as profound.
+I’ve recently seen posts on [X](https://x.com/David_Kasten/status/1893357776702976286) of anecdotes that from recruiters at frontier labs who now assume that junior staffs are AI replaceable. I was initially skeptical of this claim, but now I kinda believe it. Also, in Andrej Karpathy’s [post](https://x.com/karpathy/status/1894099637218545984), he argues that agency is more valuable than intelligence. This struck me as profound.
 
 In terms of intelligence, today’s top LLMs are already more knowledgeable than humans. But in terms of agency, humans still have the upper hand. However, after my interaction with Claude Code, I caught a glimpse of a future where machines will reach agency supremacy as well. When that happens, it won’t be collaboration - it will be a full [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU)(outdated, but still relevant).
 
-I encourage everyone reading this to try it for themselves. Hearing about it isn’t the same as experiencing it firsthand. Maybe I’m exaggerating, but I stand by my belief that this kind of automation will only accelerate. And if this is the worst this technology will ever be, it’s only going to get better from here.
+I encourage everyone reading this to try it for themselves. Hearing about it isn’t the same as experiencing it firsthand. Maybe I’m exaggerating, but I stand by my belief that this kind of automation is a matter of when, not if. And this is the worst this technology will ever be, it’s only going to get better from here.
