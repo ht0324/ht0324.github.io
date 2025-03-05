@@ -7,7 +7,9 @@ tags: AI
 categories: thoughts
 ---
 
-I recently came across a fascinating and, frankly, humbling interactive blog post titled "[Are you smarter than an LLM?](https://d.erenrich.net/are-you-smarter-than-an-llm/index.html)". It's a simple concept, but the execution and the implications are profound. The post directly pits the user against a large language model in answering questions from the Massive Multitask Language Understanding (MMLU) benchmark. This experience forced me to confront some preconceived notions I had about LLM capabilities and the meaning of benchmark scores.
+I recently came across a fascinating and, frankly, humbling interactive blog post titled "[Are you smarter than an LLM?](https://d.erenrich.net/are-you-smarter-than-an-llm/index.html)". It's a simple concept, but the execution and the implications are profound.
+
+The post directly pits the user against a large language model in answering questions from the Massive Multitask Language Understanding (MMLU) benchmark. This experience forced me to confront some preconceived notions I had about LLM capabilities and the meaning of benchmark scores.
 
 ---
 <br />
@@ -27,9 +29,13 @@ The blog post's title, "Are you smarter than an LLM?", is provocative for a reas
 
 I think many people, even those who follow AI advancements, still hold onto a sense of human exceptionalism. We see LLMs achieving high benchmark scores, but we might subconsciously maintain a belief that we're "still special" in some way. This interactive test directly challenges that notion. It forces you to confront the reality that, in certain areas, LLMs are already surpassing human performance.
 
-While MMLU is currently a very saturated benchmark, it's important to remember that there are many other, even more challenging evaluations out there. For example, Dan Hendrycks' "Humanities Final Exam" benchmark features problems so difficult that even Terence Tao participated in their creation. These are exceptionally hard questions, and I doubt I could answer even one correctly. Yet, even on these incredibly demanding benchmarks, LLMs are starting to achieve non-zero scores, albeit low percentages. This continued progress, even on the most difficult tests, is a testament to the rapid advancements in the field.
+While MMLU is currently a very saturated benchmark, it's important to remember that there are many other, even more challenging evaluations out there. For example, Dan Hendrycks' "Humanities Final Exam" benchmark features problems so difficult that even Terence Tao participated in their creation. These are exceptionally hard questions, and I doubt I could answer even one correctly.
+
+Yet, even on these incredibly demanding benchmarks, LLMs are starting to achieve non-zero scores, albeit low percentages. This continued progress, even on the most difficult tests, is a testament to the rapid advancements in the field.
 
 ---
 <br />
 
-This experience has made me reconsider the trajectory of LLM development. If current models like GPT-4.5 (or whatever the current leading model is) can outperform the average person (and even me!) on a challenging benchmark like MMLU, what will the landscape look like in five years? The pace of progress is astonishing, and this interactive test provides a tangible glimpse into that future. It's a future where LLMs will likely possess knowledge and reasoning abilities that surpass those of many humans in specific, measurable ways. It's a future we need to understand and prepare for.
+This experience has made me reconsider the trajectory of LLM development. If current models like GPT-4.5 (or whatever the current leading model is) can outperform the average person (and even me!) on a challenging benchmark like MMLU, what will the landscape look like in five years?
+
+The pace of progress is astonishing, and this interactive test provides a tangible glimpse into that future. It's a future where LLMs will likely possess knowledge and reasoning abilities that surpass those of many humans in specific, measurable ways. It's a future we need to understand and prepare for.
