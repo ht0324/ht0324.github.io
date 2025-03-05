@@ -404,6 +404,10 @@ footer.sticky-bottom {
 .profile {
   font-family: var(--font-body);
   
+  p, div, span, a, li {
+    font-weight: 400;
+  }
+  
   h2, h3, h4 {
     font-family: var(--font-heading);
   }
@@ -423,6 +427,23 @@ footer.sticky-bottom {
   
   a, p, li, span, div {
     font-family: var(--font-body);
+    font-weight: 400;
+  }
+}
+
+// Archive pages (tags, categories, years)
+.tag-posts,
+.category-posts,
+.year-posts,
+.post ul.post-list li {
+  font-weight: 400;
+  
+  p, div, span, a:not(.post-title) {
+    font-weight: 400;
+  }
+  
+  .post-meta, .post-tags {
+    font-weight: 400;
   }
 }
 
@@ -431,6 +452,34 @@ html body * {
   font-family: var(--font-body);
 }
 
+// Default font weight for all text elements
+html body p,
+html body div,
+html body span,
+html body li,
+html body a:not(.navbar-brand):not(.post-title),
+html body td,
+html body th,
+html body label,
+html body input,
+html body textarea,
+html body .form-control,
+html body .post-description,
+html body .post-meta,
+html body .post-tags,
+html body small {
+  font-weight: 400 !important;
+}
+
+// Bold font weight only for specific elements
+html body strong,
+html body b,
+html body .font-weight-bold,
+html body .font-weight-medium {
+  font-weight: 600 !important;
+}
+
+// Heading font family
 html body h1,
 html body h2,
 html body h3,
@@ -445,6 +494,7 @@ html body .h5,
 html body .h6,
 html body .navbar-brand {
   font-family: var(--font-heading) !important;
+  font-weight: 600 !important;
 }
 
 // Responsive adjustments
