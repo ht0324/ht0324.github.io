@@ -2,7 +2,7 @@
 layout: post
 title: Link Archive - Jan 2025
 date: 2025-01-31 23:59:59
-description: A collection of articles and videos that I read in January 2025
+description: A collection of articles and videos I explored in January 2025
 tags: AI
 categories: Link
 giscus_comments: true
