@@ -30,6 +30,11 @@
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- Preload profile image for faster loading -->
+    {% if page.layout == 'about' and page.profile.image %}
+    <link rel="preload" href="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" as="image">
+    {% endif %}
 
     <!-- Dark Mode -->
     {% if site.enable_darkmode %}
