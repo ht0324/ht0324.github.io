@@ -621,4 +621,27 @@ html body .navbar-brand {
   .post-header .post-title {
     font-size: 1.8rem;
   }
+  
+  /* Make pagination smaller on mobile */
+  .pagination {
+    margin-top: 2rem;
+    
+    .page-item {
+      margin: 0 0.2rem;
+      
+      .page-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+        min-width: 2.2rem;
+      }
+      
+      &:first-child .page-link {
+        padding-left: 1rem;
+      }
+      
+      &:last-child .page-link {
+        padding-right: 1rem;
+      }
+    }
+  }
 }
