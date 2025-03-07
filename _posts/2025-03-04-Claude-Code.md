@@ -21,6 +21,7 @@ I haven’t used [Cursor](https://www.cursor.com/), the VS Code variant that gai
 
 It gave me the sense that there was a person behind the terminal, troubleshooting issues and debugging with me. Of course, Claude wasn’t perfect, but the back-and-forth, iterative process was refreshing and much more engaging than just randomly encountering errors and sifting through Stack Overflow links to fix them.
 
+---
 ### A New Kind of Collaboration(?)
 
 It was a massive time-saver. I provided high-level directions, Claude executed them, and when problems arose, we solved them together. The biggest surprise was how collaborative the process felt - it was much easier and more efficient than doing everything on my own, or switching back and fourth using a chat interface.
@@ -31,6 +32,7 @@ Claude Code also helped me fix bugs on my self-hosted blog. I’m more of an AI 
 
 But with Claude Code, I could simply query my repository - it became conversational. That made it much easier to fix persistent issues in a short amount of time. All in all, it’s an incredibly useful tool.
 
+---
 ### Collaboration as a Mirage
 
 But the reason why it felt like a collaborative process is that Claude still isn’t perfect in its agentic execution. Don’t get me wrong - Claude is very capable, but it still requires human intervention. For complex tasks, it doesn’t always get things right on the first try. 
