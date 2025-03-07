@@ -49,7 +49,13 @@ pagination:
       <div class="row">
       {% for post in featured_posts %}
         <div class="card-item col-12 mb-3">
-          <a href="{{ post.url | relative_url }}">
+          {% if post.redirect == blank %}
+            <a href="{{ post.url | relative_url }}">
+          {% elsif post.redirect contains '://' %}
+            <a href="{{ post.redirect }}" target="_blank">
+          {% else %}
+            <a href="{{ post.redirect | relative_url }}">
+          {% endif %}
             <div class="card">
               <div class="row g-0">
                 <div class="col-md-12">
@@ -57,7 +63,14 @@ pagination:
                     <div style="position: absolute; top: 1rem; right: 2rem;">
                       <i class="fa-solid fa-thumbtack" style="transform: rotate(45deg); opacity: 0.7;"></i>
                     </div>
-                    <h3 class="card-title" style="margin: 0.2rem 0 0.4rem 0; padding-right: 1.5rem;">{{ post.title }}</h3>
+                    <h3 class="card-title" style="margin: 0.2rem 0 0.4rem 0; padding-right: 1.5rem;">
+                      {{ post.title }}
+                      {% if post.redirect contains '://' %}
+                        <svg width="1rem" height="1rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+                          <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      {% endif %}
+                    </h3>
                     <p class="card-text" style="margin-bottom: 0.5rem;">{{ post.description }}</p>
                     {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
                     {% assign date = post.date | date: "%b %-d, %Y" %}
@@ -83,7 +96,16 @@ pagination:
 
     <li style="padding: 0.5rem 0;">
       <h3 style="margin-bottom: 0.2rem; font-family: var(--font-heading);">
-        <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.redirect == blank %}
+          <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% elsif post.redirect contains '://' %}
+          <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
+          <svg width="1rem" height="1rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+            <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        {% else %}
+          <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+        {% endif %}
       </h3>
       <p style="margin-bottom: 0.4rem;">{{ post.description }}</p>
       <div class="post-meta" style="margin-bottom: 0.3rem;">
