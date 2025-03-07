@@ -4,7 +4,7 @@ title: Are You Smarter Than an LLM?
 date: 2025-02-12 12:00:00
 description: A firsthand experience with the MMLU benchmark
 tags: AI
-categories: Thoughts
+categories: Blog
 featured: true
 giscus_comments: true
 ---
@@ -14,9 +14,8 @@ I recently came across a fascinating and, frankly, humbling interactive blog pos
 The post directly pits the user against a large language model in answering questions from the Massive Multitask Language Understanding (MMLU) benchmark. This experience forced me to confront some preconceived notions I had about LLM capabilities and the meaning of benchmark scores.
 
 ---
-<br />
 
-**The MMLU Challenge**
+### The MMLU Challenge
 
 The MMLU benchmark is a well-known evaluation tool for LLMs, designed to measure a model's ability to understand and reason across a wide range of subjects. It's become somewhat saturated at the top, with leading models achieving very high scores. I was aware of this saturation, but I hadn't truly internalized what it meant until I tried the questions myself.
 
@@ -24,8 +23,7 @@ The interactive blog post presents MMLU questions, and you answer them alongside
 
 The MMLU questions are non-trivial. They require a significant breadth and depth of knowledge. Acing these tests, as large language models often do, shouldn't be taken for granted. I, for one, certainly took it for granted before this experience. When I took this test alongside large language models, the experience of me getting a question wrong while the language model got it right was truly demoralizing.
 
-<br />
-**Shattering Self-Esteem (in a Good Way)**
+### Shattering Self-Esteem (in a Good Way)
 
 The blog post's title is provocative for a reason. In the context of the MMLU, I had to admit that, in many cases, I wasn't smarter than the LLM. My score was lower. This isn't a statement about overall intelligence, of course, but it is a powerful indicator of the superhuman capabilities LLMs are developing in specific domains.
 
@@ -36,7 +34,8 @@ While MMLU is currently a very saturated benchmark, it's important to remember t
 Yet, even on these incredibly demanding benchmarks, LLMs are starting to achieve non-zero scores, albeit low percentages. And I see no reason why they won't continue to improve.
 
 ---
-<br />
+
+### Where Do We Go From Here?
 
 This experience has made me reconsider the trajectory of LLM development. If current models like GPT-4.5 (or whatever the current leading model is) can outperform the average person (and even me!) on a challenging benchmark like MMLU, what will the landscape look like in five years?
 

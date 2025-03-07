@@ -268,7 +268,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 display_tags: ['AI', 'Sci-Fi', 'Life'] # these tags will be displayed on the front page of your blog
-display_categories: ['Blog', 'Thoughts', 'Link', 'Papers'] # these categories will be displayed on the front page of your blog
+display_categories: ['Blog', 'Thoughts', 'Link', 'Paper'] # these categories will be displayed on the front page of your blog
 # display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 # display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 

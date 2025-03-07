@@ -3,7 +3,7 @@ layout: post
 title: Reflections on My Exchange Program at UT Austin
 date: 2023-09-10 16:40:16
 description: A detailed reflection/translation on my exchange program
-tags: life
+tags: Life
 categories: Blog
 giscus_comments: true
 ---
@@ -12,17 +12,15 @@ giscus_comments: true
 
 This article is a reflection on my experience as an exchange student at the University of Texas at Austin (UT Austin) from the Fall 2022 to Spring 2023 semester. I'll share my journey, from the visa application process to academic life, cultural experiences, and personal growth. This is a guide for prospective exchange students, particularly those from Sungkyunkwan University, offering insights into what to expect and how to make the most of your time at UT Austin.
 
-<br />
+---
 ### Visa Application Process
 
 After receiving the acceptance notification for the exchange program, UT will contact you via email. The MyIO page provides detailed requirements and documents, so you can prepare everything through that site.
 
-<br />
 ### Preparations Before Departure
 
 I purchased a one-way flight ticket three months before departure. Since I planned to travel to other regions after the exchange program before returning to Korea, I bought the return flight ticket later. Austin has a large daily temperature range, so please check the weather according to your travel period and pack appropriate clothing.
 
-<br />
 ### Dormitory/Accommodation
 
 There are largely three types of accommodation for students near UT:
@@ -40,12 +38,10 @@ In exchange for the low price, you have to do 4 hours of labor per week. Labor i
 
 One of the most surprising things about living in a co-op was the large number of Koreans. Students from other universities in Korea tend to gather at the co-op after reading previous reviews. There are many foreign friends as well, but you might end up hanging out only with Korean friends.
 
-<br />
 ### Course Registration
 
 The course registration method is not much different from Sungkyunkwan University. You can add courses to a virtual "backpack" and register on the registration day. Using the Chrome extension "ut registration plus" makes the registration process much easier.
 
-<br />
 ### Class Structure
 
 **2-CARDIOVAS & WEIGHT TRAINING**
@@ -84,12 +80,10 @@ This is a follow-up course to 460J. It covers model compression, knowledge disti
 
 This was a really difficult course. The professor is over 80 years old and a prominent figure in the history of computer architecture. The difficulty of the lab assignments and exams is beyond imagination. It was extremely challenging at the time, but I have no regrets, and I learned a lot about computer architecture. I feel proud to have studied and competed with students at UT, where ECE and CS are ranked within the top 10 globally.
 
-<br />
 ### Evaluation Method
 
 It varies from class to class, so refer to the syllabus. At UT, the highest grade is A, not A+, so keep that in mind if you want to receive letter grades.
 
-<br />
 ### Culture and Leisure Activities
 
 -   **Leisure activities at school:** You can enjoy bowling, pool, PlayStation, and Switch on the B1 floor of the Texas Union building. There's a well-equipped esports facility created by DELL to promote Alienware. The Blanton Museum of Art, located within the school, recently opened, and it's free for UT students.
@@ -102,7 +96,6 @@ It varies from class to class, so refer to the syllabus. At UT, the highest grad
 
 -   **Travel destinations:** The only travel destinations accessible by car from Austin are essentially San Antonio, Houston, and Dallas. They can't be compared to big cities like New York or LA, but they have their own attractions and many interesting things unique to Texas, so I recommend all three. I took time off during the semester on weekends to rent a car and visit with friends. For other cities, take a plane.
 
-<br />
 ### Thoughts and Overall Review
 
 Before going on an exchange program, you naturally have expectations and assumptions about the school, the US, and the people. However, when I actually went there, many things were different from what I had expected. Before going on the exchange program, I thought I would only hang out with American students at UT. However, as mentioned earlier, there are many exchange students and international students from Korea, so if you wanted to, you could live a day without speaking a single word of English.

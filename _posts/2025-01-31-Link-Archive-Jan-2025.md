@@ -22,7 +22,7 @@ A curated list of links I found insightful in January 2025. This is the first of
 
 **[Building a Virtual Machine Inside ChatGPT - Jonas Degrave](https://www.engraved.blog/building-a-virtual-machine-inside/)**
 
-*   I first encountered this blog post at the end of 2022, around the advent of ChatGPT, and I recently rediscovered it. The author attempted to simulate a Unix terminal environment using ChatGPT, and, surprisingly, they *succeeded*. This might not seem remarkable now, but it completely blew my mind when I first started using ChatGPT. The author is really clever, and they take it a step further by going "all meta," which I won't spoil. This clearly demonstrated that the LLM could simulate a system—in this case, a Unix system. It gave me this sense that this LLM was something truly special and that it would fundamentally change everything. I still believe that, and I owe that kind of inspiration and shock to this blog post.
+*   I first encountered this blog post at the end of 2022, around the advent of ChatGPT, and I recently rediscovered it. The author attempted to simulate a Unix terminal environment using ChatGPT, and, surprisingly, they *succeeded*. This might not seem remarkable now, but it completely blew my mind when I first started using ChatGPT. The author is really clever, and they take it a step further by going "all meta," which I won't spoil. This clearly demonstrated that the LLM could simulate a system - in this case, a Unix system. It gave me this sense that this LLM was something truly special and that it would fundamentally change everything. I still believe that, and I owe that kind of inspiration and shock to this blog post.
 
 **[Francois Chollet - Why The Biggest AI Models Can't Solve Simple Puzzles](https://youtube.com/watch?v=UakqL6Pj9xo)**
 
@@ -34,7 +34,7 @@ A curated list of links I found insightful in January 2025. This is the first of
 
 **[François Chollet: Measures of Intelligence - Lex Fridman Podcast #120](https://youtube.com/watch?v=PUAdj3w3wO4)**
 
-*   In this podcast, both François and Lex are a bit older. I watched this because I was simultaneously reading François's paper on the measure of intelligence. He's soft-spoken but offers insightful perspectives on intelligence. While I don't agree with everything he says—I believe that LLMs and other AI systems are capable of more generalization than François suggests—I think his views as an AI skeptic aren't unfounded. His logic is sound, but I believe he underestimates the intuitive power of these machine learning systems.
+*   In this podcast, both François and Lex are a bit older. I watched this because I was simultaneously reading François's paper on the measure of intelligence. He's soft-spoken but offers insightful perspectives on intelligence. While I don't agree with everything he says - I believe that LLMs and other AI systems are capable of more generalization than François suggests - I think his views as an AI skeptic aren't unfounded. His logic is sound, but I believe he underestimates the intuitive power of these machine learning systems.
 
 **[Feature Visualization](https://distill.pub/2017/feature-visualization/)**
 
@@ -46,7 +46,7 @@ A curated list of links I found insightful in January 2025. This is the first of
 
 **[DeepSeek CEO Interview - ChinaTalk](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas)**
 
-*   This is an interview with the DeepSeek CEO, and based on the interview, he is very ambitious and really focused on innovation, which I admire. Previously, China was primarily focused on keeping up with the US, but he feels they need a culture of innovation—not just following, but innovating themselves and becoming trendsetters. It will be a really interesting dynamic, and I'm glad that he is bullish on open-sourcing and that his company remains committed to it.
+*   This is an interview with the DeepSeek CEO, and based on the interview, he is very ambitious and really focused on innovation, which I admire. Previously, China was primarily focused on keeping up with the US, but he feels they need a culture of innovation - not just following, but innovating themselves and becoming trendsetters. It will be a really interesting dynamic, and I'm glad that he is bullish on open-sourcing and that his company remains committed to it.
 
 **[AI's Uneven Arrival - Stratechery](https://stratechery.com/2025/ais-uneven-arrival/)**
 
@@ -54,8 +54,8 @@ A curated list of links I found insightful in January 2025. This is the first of
 
 **[DeepSeek and Export Controls - Dario Amodei](https://darioamodei.com/on-deepseek-and-export-controls?s=09)**
 
-*   It's pretty interesting to see Amodei's reaction to this, and I think he's right. If you're on the American side, the most logical thing to do is to clamp down on AI exports—specifically, chip exports. But the thing is, those chip exports... the Biden administration didn't constrain the chips on the bandwidth side, so that's why DeepSeek had a workaround utilizing maximum bandwidth. But if they clamp down on both bandwidth and compute, I'm not sure that would be the fundamental solution to this arms race.
+*   It's pretty interesting to see Amodei's reaction to this, and I think he's right. If you're on the American side, the most logical thing to do is to clamp down on AI exports - specifically, chip exports. But the thing is, those chip exports... the Biden administration didn't constrain the chips on the bandwidth side, so that's why DeepSeek had a workaround utilizing maximum bandwidth. But if they clamp down on both bandwidth and compute, I'm not sure that would be the fundamental solution to this arms race.
 
 ---
 <br />
-That’s it for January! I’m excited to keep exploring and sharing more in the months ahead—hope you found something thought-provoking here.
+That’s it for January! I’m excited to keep exploring and sharing more in the months ahead - hope you found something thought-provoking here.

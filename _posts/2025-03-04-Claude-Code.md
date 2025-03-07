@@ -11,8 +11,7 @@ giscus_comments: true
 Today, I used [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), an experimental tool released by Anthropic a while ago. I really wanted to use it right at the start of the announcement, but I kept putting it off because I hadn’t found a use case for it yet. But today, I had to rapidly prototype an app, so I decided to give it a shot.
 
 ---
-<br />
-**Claude's Agentic Capabilities**
+### Claude's Agentic Capabilities
 
 Claude Code is basically [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet), which has been updated by Anthropic to have more agentic capabilities. They’ve essentially wrapped it with tools that can run commands and execute terminal operations. Claude can see your repository, view your file directory, edit files, and execute terminal commands. So, yeah, it has much more agency.
 
@@ -22,8 +21,7 @@ I haven’t used [Cursor](https://www.cursor.com/), the VS Code variant that gai
 
 It gave me the sense that there was a person behind the terminal, troubleshooting issues and debugging with me. Of course, Claude wasn’t perfect, but the back-and-forth, iterative process was refreshing and much more engaging than just randomly encountering errors and sifting through Stack Overflow links to fix them.
 
-<br />
-**A New Kind of Collaboration(?)**
+### A New Kind of Collaboration(?)
 
 It was a massive time-saver. I provided high-level directions, Claude executed them, and when problems arose, we solved them together. The biggest surprise was how collaborative the process felt - it was much easier and more efficient than doing everything on my own, or switching back and fourth using a chat interface.
 
@@ -33,8 +31,7 @@ Claude Code also helped me fix bugs on my self-hosted blog. I’m more of an AI 
 
 But with Claude Code, I could simply query my repository - it became conversational. That made it much easier to fix persistent issues in a short amount of time. All in all, it’s an incredibly useful tool.
 
-<br />
-**Collaboration as a Mirage**
+### Collaboration as a Mirage
 
 But the reason why it felt like a collaborative process is that Claude still isn’t perfect in its agentic execution. Don’t get me wrong - Claude is very capable, but it still requires human intervention. For complex tasks, it doesn’t always get things right on the first try. 
 
@@ -45,13 +42,10 @@ That said, I structured my app development process in a very step-by-step manner
 Looking at the trajectory of AI progress, though, I don’t think this collaborative phase will last long. Eventually, it won’t be a partnership - it will be a replacement.
 
 ---
-<br />
-**The Inevitable Shift**
+### The Inevitable Shift
 
 I’ve recently seen posts on [X](https://x.com/David_Kasten/status/1893357776702976286) of anecdotes that from recruiters at frontier labs who now assume that junior staffs are AI replaceable. I was initially skeptical of this claim, but now I kinda believe it. Also, in Andrej Karpathy’s [post](https://x.com/karpathy/status/1894099637218545984), he argues that agency is more valuable than intelligence. This struck me as profound.
 
 In terms of intelligence, today’s top LLMs are already more knowledgeable than humans. But in terms of agency, humans still have the upper hand. However, after my interaction with Claude Code, I caught a glimpse of a future where machines will reach agency supremacy as well. When that happens, it won’t be collaboration - it will be a full [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU)(outdated, but still relevant).
 
 I encourage everyone reading this to try it for themselves. Hearing about it isn’t the same as experiencing it firsthand. Maybe I’m exaggerating, but I stand by my belief that this kind of automation is a matter of when, not if. And this is the worst this technology will ever be, it’s only going to get better from here.
-
-<br />
