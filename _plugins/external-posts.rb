@@ -26,6 +26,11 @@ module ExternalPosts
             doc.data['description'] = e.summary;
             doc.data['date'] = e.published;
             doc.data['redirect'] = e.url;
+            # Add default tags and categories for Medium posts
+            if src['name'].downcase.include?('medium')
+              doc.data['tags'] = ['AI']
+              doc.data['categories'] = ['Blog']
+            end
             site.collections['posts'].docs << doc
           end
         end
