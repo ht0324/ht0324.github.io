@@ -14,7 +14,7 @@ Traditionally, intelligence was something people paid a premium for. If you were
 
 Just think about it—ChatGPT alone has made access to a certain level of intelligence cheaper than it's ever been. Five years ago, you would've paid a significant amount to have someone tutor you, answer your questions, or explain concepts clearly. Now, anyone can access that kind of intelligence instantly, at a fraction of the cost.
 
-This trend isn't slowing down. In fact, I'm pretty convinced it will accelerate. Large language models are becoming cheaper and more capable every year, pushing the cost of intelligence lower and lower. For someone like me, who went to university hoping that my knowledge and technical skills would set me apart, that's a worrying thought.
+This trend isn't slowing down. In fact, I'm pretty convinced it will accelerate. It's [The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf) all over again. Large language models are becoming cheaper and more capable every year, pushing the cost of intelligence lower and lower. For someone like me, who went to university hoping that my knowledge and technical skills would set me apart, that's a worrying thought.
 
 Honestly, I feel an existential anxiety about this. If intelligence itself becomes cheap, what does it mean to provide something truly valuable to society? How can I ensure my skills or knowledge remain valuable enough to earn a good living?
 
