@@ -3,7 +3,7 @@ layout: post
 title: How to Become Irreplaceable
 date: 2025-03-14 15:00:00
 description: As intelligence becomes cheaper, what does it mean to be valuable?
-tags: AI
+tags: AI Life
 categories: Thought
 giscus_comments: true
 ---
