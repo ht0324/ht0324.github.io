@@ -2,7 +2,7 @@
 layout: post
 title: Transformer Circuits – A Mathematical Framework - Review
 date: 2025-01-13 20:00:00
-description: Exploring the mathematical framework behind Transformer models, attention circuits, and induction heads—simplifying complexity through clarity.
+description: Exploring the mathematical framework behind Transformer models, attention circuits, and induction heads
 tags: AI
 categories: Paper
 giscus_comments: true

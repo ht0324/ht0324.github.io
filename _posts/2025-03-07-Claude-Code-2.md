@@ -2,7 +2,7 @@
 layout: post
 title: Claude Code — Three Days In
 date: 2025-03-07 12:00:00
-description: Further reflections on Claude Code as a powerful, actionable assistant and its implications for AI collaboration.
+description: Further reflections on Claude Code
 tags: AI
 categories: Blog
 giscus_comments: true

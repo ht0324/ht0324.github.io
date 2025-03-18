@@ -2,7 +2,7 @@
 layout: post
 title: DeepSeekMoE – Optimizing Expert Specialization in Mixture-of-Experts Models (Review)
 date: 2025-01-26 18:00:00
-description: Reviewing DeepSeekMoE, which rethinks mixture-of-experts from first principles and achieves efficient specialization with simple, intuitive changes
+description: Reviewing DeepSeekMoE
 tags: AI
 categories: Paper
 giscus_comments: true
