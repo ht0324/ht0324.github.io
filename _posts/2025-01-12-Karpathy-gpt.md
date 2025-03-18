@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review of Andrej Karpathy's "Let's Build GPT From Scratch"
+title: Andrej Karpathy's "Let's Build GPT From Scratch" - Review
 date: 2025-01-12 14:00:00
 description: My thoughts and notes on Andrej Karpathy's video on building GPT from scratch
 tags: AI

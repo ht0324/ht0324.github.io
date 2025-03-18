@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DeepSeekMath – Efficiency and Reinforcement Learning in Mathematical Reasoning
+title: DeepSeekMath – Efficiency and Reinforcement Learning in Mathematical Reasoning - Review
 date: 2025-01-27 15:00:00
 description: Reviewing DeepSeekMath and how it pushes mathematical reasoning forward with a compute-efficient variation of PPO
 tags: AI
