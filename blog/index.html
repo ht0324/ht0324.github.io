@@ -26,7 +26,53 @@ pagination:
   {% endif %}
 
   <div class="tag-category-year-list">
-    <div style="display: flex; overflow-x: auto; padding-bottom: 0.5rem; -webkit-overflow-scrolling: touch; scrollbar-width: thin; white-space: nowrap;">
+    <div class="tag-scroll-container" style="display: flex; overflow-x: auto; padding-bottom: 0.5rem; -webkit-overflow-scrolling: touch; scrollbar-width: thin; white-space: nowrap; position: relative;">
+      <!-- Left gradient fade effect container -->
+      <div class="left-fade" style="position: fixed; top: 0; left: 0; width: 50px; height: 100%; background: linear-gradient(to right, var(--global-bg-color), transparent); pointer-events: none; z-index: 1; opacity: 0;"></div>
+      <!-- Right gradient fade effect container -->
+      <div class="right-fade" style="position: fixed; top: 0; right: 0; width: 50px; height: 100%; background: linear-gradient(to right, transparent, var(--global-bg-color)); pointer-events: none; z-index: 1; opacity: 1;"></div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const container = document.querySelector('.tag-scroll-container');
+          const leftFade = document.querySelector('.left-fade');
+          const rightFade = document.querySelector('.right-fade');
+
+          // Update fade effects based on scroll position
+          function updateFades() {
+            const scrollLeft = container.scrollLeft;
+            const maxScroll = container.scrollWidth - container.clientWidth;
+            
+            // Show/hide left fade based on scroll position
+            leftFade.style.opacity = scrollLeft > 0 ? '1' : '0';
+            leftFade.style.left = container.getBoundingClientRect().left + 'px';
+            
+            // Show/hide right fade based on scroll position
+            rightFade.style.opacity = scrollLeft < maxScroll ? '1' : '0';
+            rightFade.style.right = (window.innerWidth - (container.getBoundingClientRect().right)) + 'px';
+            
+            // Update heights to match container
+            const containerHeight = container.offsetHeight;
+            leftFade.style.height = containerHeight + 'px';
+            rightFade.style.height = containerHeight + 'px';
+            
+            // Update top positions
+            const containerTop = container.getBoundingClientRect().top;
+            leftFade.style.top = containerTop + 'px';
+            rightFade.style.top = containerTop + 'px';
+          }
+
+          // Listen for scroll events on the container
+          container.addEventListener('scroll', updateFades);
+          
+          // Listen for window resize to update positions
+          window.addEventListener('resize', updateFades);
+          
+          // Initial update
+          updateFades();
+        });
+      </script>
+
       <!-- Tags -->
       {% if site.display_tags %}
         {% for tag in site.display_tags %}
