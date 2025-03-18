@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's Reproduce GPT-2 (124M) by Karpathy - Review"
+title: Let's Reproduce GPT-2 by Karpathy - Review
 date: 2025-01-14 20:30:00
 description: My notes and takeways on Andrej Karpathy's GPT-2 reproduction video
 tags: AI Life

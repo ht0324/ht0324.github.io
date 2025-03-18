@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scaling Laws for Neural Language Models - Review
+title: Scaling Laws Paper - Review
 date: 2025-03-17 14:00:00
 description: Reviewing OpenAI's paper on scaling laws and the role of model size, data, and compute
 tags: AI
