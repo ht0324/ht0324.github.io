@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Thoughts on GPT-4o Image Generation
+title: Thoughts on GPT-4o Image Generation
 date: 2025-03-26 01:30:00
 description: What GPT-4o's image capabilities tell us about the future of operating systems
 tags: AI
