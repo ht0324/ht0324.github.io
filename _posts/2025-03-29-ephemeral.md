@@ -8,7 +8,7 @@ categories: Thoughts
 giscus_comments: true
 ---
 
-There is a word I've known for years but only recently begun to truly feel — ephemeral. It doesn't just mean short-lived. It carries a weight. A kind of soft sadness. A beauty sharpened by its fragility. Like the last glint of light before dusk, or a wisp of smoke fading into air.
+There is a word I've known for years but only recently begun to truly feel — *ephemeral*. It doesn't just mean short-lived. It carries a weight. A kind of soft sadness. A beauty sharpened by its fragility. Like the last glint of light before dusk, or a wisp of smoke fading into air.
 
 My body is ephemeral. My thoughts, too. Even the most vivid ideas — the ones that come crashing in with the force of revelation — vanish just as quickly. If I don't catch them, write them, they're gone. Dissolved into the noise. Like heat bleeding into the atmosphere. Like tears in rain.
 
