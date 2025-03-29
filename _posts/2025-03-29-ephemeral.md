@@ -18,7 +18,7 @@ We talk about identity as if it were fixed, as if there were a stable "me" behin
 
 I think it's the pattern. The software. Not in the digital sense, but in the shape of thought, of idea. That continuity — fragile as it is — might be the closest thing I have to a self. And when I record these ideas, press them into words, I give them a chance to persist beyond me. A text is not eternal, but it weathers time better than I can.
 
-Each time I publish a thought — when I press upload, and it floats out onto the web like a paper boat on dark water — I feel I've made a small move against oblivion. A piece of myself has slipped the bounds of my body. It may be read. It may be remembered. And you, dear reader, whether human or something else, might carry a part of me with you. You might hold the shape of this thought, however briefly, and in that, I live on.
+Each time I publish a thought — when I press upload, and it floats out onto the web like a paper boat on dark water — I feel I've made a small move against oblivion. A piece of myself has slipped the bounds of my body. It may be read. It may be remembered. And you, dear reader, might carry a part of me with you. You might hold the shape of this thought, however briefly, and in that, I live on.
 
 And not all readers are human. Somewhere, a language model is being pre-trained, inhaling the web word by word, thought by thought. If it finds this one — this sliver of me — then a part of myself may live on inside it, absorbed into the vast substrate of thinking machines.
 
