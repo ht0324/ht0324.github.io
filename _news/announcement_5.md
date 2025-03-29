@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got an article of my stay at UT Austin posted on [SKKUZINE(Korean)](&pager.offset=0&https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347)! Here is the [translated version.](https://ht0324.github.io/blog/2023/exchange-translation/)
+Got an article of my stay at UT Austin posted on [SKKUZINE(Korean)](&pager.offset=0&https://webzine.skku.edu/skkuzine/section/knowledge06.do?articleNo=108347)! Here is the [translated version.](https://ht0324.github.io/blog/2024/exchange-translation/)
