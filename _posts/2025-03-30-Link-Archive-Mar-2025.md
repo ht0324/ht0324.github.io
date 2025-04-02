@@ -8,7 +8,7 @@ categories: Link
 giscus_comments: true
 ---
 
-Another month has passed, and here's my collection of links for March 2025. This month brought some fascinating content around AI agents, the future of coding, and some more philosophical perspectives on AI development.
+Another month has passed, and here's my collection of links for March 2025. This month brought some fascinating content around AI agents and some more philosophical perspectives on AI development.
 
 ---
 
