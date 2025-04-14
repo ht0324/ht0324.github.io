@@ -30,7 +30,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[Clarifying and predicting AGI — LessWrong](https://www.lesswrong.com/posts/BoA3agdkAzL6HQtQP/clarifying-and-predicting-agi)**
 
-*   This is probably the most influential piece I read in March. It introduces the T-AGI framework, Richard Ngo's attempt to clarify AGI definition. He defines a system as a T-AGI if, on most cognitive tasks, it beats most human experts given time T to perform the task.
+*   This is probably the most influential piece I read in March. It introduces the `T-AGI` framework, Richard Ngo's attempt to clarify AGI definition. He defines a system as a `T-AGI` if, on most cognitive tasks, it beats most human experts given time `T` to perform the task.
 
 *   For example, a one-second AGI would beat humans at quick information retrieval questions like "Who is the leader of Zimbabwe?" A one-minute AGI would outperform humans on tasks they'd need a minute for, and so on.
 
@@ -84,7 +84,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 *   The scale-up is truly remarkable. When comparing the Blackwell chip and next year's Ruben chip, the chip size takes on a new abstraction—a single rack as a single huge GPU. Since you can't make a single GPU die that large, you split it up and do extensive networking to fit it into a densely packed rack. The comparison between Blackwell and Ruben is astonishing.
 
-*   Another moment that gave me goosebumps was the announcement of the next-generation chip after Ruben, codenamed Feynman (my favorite scientist). The crowd applauded this reveal. As a nice Easter egg, during a segment exploring NVIDIA headquarters with detailed computer graphics, Jensen casually mentioned "Gaussian Splatting" after transitioning from the visuals.
+*   Another moment that gave me goosebumps was the announcement of the next-generation chip after Ruben, codenamed Feynman. The crowd applauded this reveal. As a nice Easter egg, during a segment exploring NVIDIA headquarters with detailed computer graphics, Jensen casually mentioned "Gaussian Splatting" after transitioning from the visuals.
 
 **[NVIDIA GTC 2025 Analysis - SemiAnalysis](https://semianalysis.com/2025/03/19/nvidia-gtc-2025-built-for-reasoning-vera-rubin-kyber-cpo-dynamo-inference-jensen-math-feynman/)**
 
