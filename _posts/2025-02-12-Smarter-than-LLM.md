@@ -5,7 +5,6 @@ date: 2025-02-12 12:00:00
 description: A firsthand experience with the MMLU benchmark
 tags: AI
 categories: Blog
-featured: true
 giscus_comments: true
 ---
 

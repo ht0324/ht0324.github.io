@@ -14,7 +14,7 @@ I've heard [rumors](https://www.nytimes.com/2024/12/27/technology/openai-public-
 ---
 ### Sustainability and the Bitter Lesson
 
-Firstly, and perhaps most obviously, OpenAI needs to sustain itself. Their initial shift to a capped-profit model stemmed from the realization that scaling is paramount in deep learning, a concept known as the "bitter lesson." This lesson emphasizes that scaling up models is the most crucial factor in advancing machine learning.
+Firstly, and perhaps most obviously, OpenAI needs to sustain itself. Their initial shift to a capped-profit model stemmed from the realization that scaling is paramount in deep learning, a concept known as the ["bitter lesson."](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf) This lesson emphasizes that scaling up models is the most crucial factor in advancing machine learning.
 
 To achieve this scaling, substantial capital is required. Ensuring a continuous flow of capital is vital for OpenAI's research. As a non-profit, they would be reliant on donors, potentially compromising their independence due to donor incentives.
 

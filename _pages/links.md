@@ -9,7 +9,7 @@ giscus_comments: true
 ---
 
 ### Writings
-[The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by Rich Sutton   
+[The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf) by Rich Sutton   
 [Stevey's Google Platforms Rant](https://gist.github.com/chitchcock/1281611) by Steve Yegge   
 [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) by Andrej Karpathy   
 [ChatGPT is a Blurry JPEG of the Web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web) by Ted Chiang   
