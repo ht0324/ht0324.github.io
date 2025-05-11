@@ -4,7 +4,7 @@ title: The Murmuring Woman
 date: 2025-05-10 11:00:00
 description: A Parable for LLM Thinking
 tags: AI
-categories: Blog
+categories: Thoughts
 giscus_comments: true
 ---
 
