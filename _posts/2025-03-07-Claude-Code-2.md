@@ -8,7 +8,7 @@ categories: Blog
 giscus_comments: true
 ---
 
-It’s been three days since I started using [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview). The initial excitement was so strong that I immediately wrote a [blog post](https://ht0324.github.io/blog/2025/Claude-Code/) about it. But after a couple more days, having spent more time exploring its capabilities, I’ve found myself with even more thoughts—so here’s a quick follow-up.
+It’s been three days since I started using [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview). The initial excitement was so strong that I immediately wrote a [blog post](/blog/2025/Claude-Code/) about it. But after a couple more days, having spent more time exploring its capabilities, I’ve found myself with even more thoughts—so here’s a quick follow-up.
 
 ---
 

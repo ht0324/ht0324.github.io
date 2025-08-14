@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Seoul, South Korea
+subtitle: Santa Barbara, CA
 
 profile:
   align: right
@@ -18,9 +18,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-My name is Hun Tae, a senior student majoring in Computer Science at [Sungkyunkwan University](https://www.skku.edu/eng/) in South Korea.
+I'm Hun Tae, an incoming M.S. in Computer Science at [UC Santa Barbara](https://www.ucsb.edu/) (Fall 2025).
 
-I spent a year as an exchange student at the [University of Texas at Austin](https://www.utexas.edu/), where I worked with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at [Systems Level Design Group](https://radum.ece.utexas.edu/). I also had the privilege of working with [Prof. JinYeong Bak](https://nosyu.kr/) at the [HLI Lab](https://hli.skku.edu/). Currently, my interests lie in the areas of Synthetic Data Generation and LLM Agents.
+Previously: [University of Texas at Austin](https://www.utexas.edu/) with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at the [Systems Level Design Group](https://radum.ece.utexas.edu/), and the [HLI Lab](https://hli.skku.edu/) with [Prof. JinYeong Bak](https://nosyu.kr/).
 
-Outside of academics, I enjoy watching science fiction movies, reading books (also sci-fi!), and listening to podcasts.
-Feel free to visit my [blog](https://ht0324.github.io/blog/)! There I write about my thoughts on [papers](https://ht0324.github.io/blog/category/paper/) and [other topics](https://ht0324.github.io/blog/category/blog/).
+I an interested on synthetic data generation and LLM agents.
+
+On this blog: short notes on [papers](/blog/category/paper/) and [other topics](/blog/category/blog/). [Off-hours](/blog/tag/life/): sci-fi films, books, podcasts.
