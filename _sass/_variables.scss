@@ -1,4 +1,5 @@
-/*******************************************************************************
+@use "sass:color";
+/********************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
@@ -12,21 +13,21 @@ $blue-color-dark:     #00369f !default;
 $sky-blue-color:      #1E88E5 !default; // Deep sky blue that's readable in text
 $beige-color-bg:      #FAF9F5 !default;
 $cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
+$light-cyan-color:    color.adjust($cyan-color, $lightness: 25%);
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
-$light-purple-color:  lighten($purple-color, 25%);
+$light-purple-color:  color.adjust($purple-color, $lightness: 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 $claude-color:         #9f5e45 !default;
 
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
@@ -38,5 +39,5 @@ $black-color: #000000 !default;
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
 
-// Font awesome location
-$fa-font-path: "../webfonts";
+// Layout dimensions (can be overridden from main.scss)
+$max-content-width: 800px !default;
