@@ -22,6 +22,6 @@ I'm Hun Tae, an incoming M.S. in Computer Science at [UC Santa Barbara](https://
 
 Previously: [University of Texas at Austin](https://www.utexas.edu/) with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at the [Systems Level Design Group](https://radum.ece.utexas.edu/), and the [HLI Lab](https://hli.skku.edu/) with [Prof. JinYeong Bak](https://nosyu.kr/) at [Sungkyunkwan University](https://www.skku.edu/eng/).
 
-I an interested on synthetic data generation and LLM agents.
+I am interested in a lot of things, but currently I am interested in synthetic data generation and [Mechanistic Interpretability](https://transformer-circuits.pub/).
 
 On this blog: short notes on [papers](/blog/category/paper/) and [other topics](/blog/category/blog/). [Off-hours](/blog/tag/life/): sci-fi films, books, podcasts.
