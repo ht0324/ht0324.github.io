@@ -20,7 +20,7 @@ Hi there! 👋
 
 I'm Hun Tae, an incoming M.S. in Computer Science at [UC Santa Barbara](https://www.ucsb.edu/) (Fall 2025).
 
-Previously: [University of Texas at Austin](https://www.utexas.edu/) with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at the [Systems Level Design Group](https://radum.ece.utexas.edu/), and the [HLI Lab](https://hli.skku.edu/) with [Prof. JinYeong Bak](https://nosyu.kr/).
+Previously: [University of Texas at Austin](https://www.utexas.edu/) with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at the [Systems Level Design Group](https://radum.ece.utexas.edu/), and the [HLI Lab](https://hli.skku.edu/) with [Prof. JinYeong Bak](https://nosyu.kr/) at [Sungkyunkwan University](https://www.skku.edu/eng/).
 
 I an interested on synthetic data generation and LLM agents.
 
