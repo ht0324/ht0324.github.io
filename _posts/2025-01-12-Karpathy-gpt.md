@@ -60,11 +60,11 @@ Initially, it felt odd to separate queries and keys, since they're computed simi
 
 **Masking After Attention Calculation**
 
-At first, masking after calculating full attention scores seemed inefficient, as we’re discarding some calculations. But this makes computations easier and faster on GPUs, leveraging parallelization. The simplicity and efficiency outweigh the wasted computation.
+At first, masking after calculating full attention scores seemed inefficient, as we’re discarding some calculations. But this makes computations easier and faster on GPUs, using GPU parallelism. The simplicity and efficiency outweigh the wasted computation.
 
 **The Role of Value Vectors**
 
-Values store the actual content aggregated by attention. At first, they felt redundant, but it's clear now that keys and queries only determine how much each token contributes, whereas values contain what exactly is being communicated. This distinction makes the attention mechanism powerful and expressive.
+Values store the actual content aggregated by attention. At first, they felt redundant, but it's clear now that keys and queries only determine how much each token contributes, whereas values contain what exactly is being communicated. This distinction makes the attention mechanism expressive.
 
 **Why Multi-Head Attention Works Well**
 
@@ -72,16 +72,16 @@ Having multiple heads isn’t arbitrary. Each head focuses on different features
 
 **Residual Connections: Essential for Stability**
 
-Residual connections aren't just nice-to-have—they’re critical. They allow gradients to flow freely, preventing problems with vanishing gradients. Transformers’ depth would be severely limited without them.
+Residual connections are essential in allowing gradients to flow freely, preventing problems with vanishing gradients. Transformers’ depth would be severely limited without them.
 
 **LayerNorm vs. BatchNorm**
 
-Layer Normalization works better than Batch Normalization for Transformers because it normalizes across features, not batches. It stabilizes gradients across sequences, which BatchNorm struggles to handle. I appreciated this insight—subtle but important.
+Layer Normalization works better than Batch Normalization for Transformers because it normalizes across features, not batches. It stabilizes gradients across sequences, which BatchNorm struggles to handle. I appreciated this subtle point.
 
 ---
 
 ### Final Thoughts
 
-Building GPT from scratch, even on a tiny dataset, clarified a lot of my confusion about Transformers. It demystified how queries, keys, values, attention, and normalization layers come together. It also showed me the importance of small implementation details like masking and residual connections, which can seem trivial at first glance but make or break the entire architecture.
+Building GPT from scratch, even on a tiny dataset, clarified a lot of my confusion about Transformers. It clarified how queries, keys, values, attention, and normalization layers come together. It also showed me the importance of small implementation details like masking and residual connections, which can seem trivial at first glance but still matter.
 
-Overall, Karpathy’s video made GPT’s internal workings clear and intuitive—definitely a valuable learning experience.
+Overall, Karpathy’s video made GPT’s internal workings clear and intuitive. It was a useful learning experience.

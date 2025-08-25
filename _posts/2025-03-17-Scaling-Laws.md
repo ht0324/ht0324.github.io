@@ -40,24 +40,24 @@ What struck me most was how the paper provides concrete guidance on allocating p
 The finding that we can achieve optimal performance by training very large models but stopping significantly short of convergence was unexpected. This challenges the traditional training approach and suggests that rapid training of oversized models might be more compute-efficient than fully training smaller ones.
 
 **The "Bitter Lesson" Vindicated**  
-This paper strongly aligns with Richard Sutton's ["Bitter Lesson"](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf) - the idea that methods leveraging computation tend to outperform human-engineered approaches. The scaling laws empirically validate this perspective, showing that simply scaling up compute and model size leads to predictable improvements without needing clever architecture innovations.
+This paper aligns with Richard Sutton's ["Bitter Lesson"](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf): the idea that methods leveraging computation tend to outperform human-engineered approaches. The scaling laws empirically validate this perspective, showing that scaling up compute and model size leads to predictable improvements without needing architectural innovations.
 
 **Data Requirements Grow Slowly**  
 I was relieved to see that data requirements grow much more slowly than model size in the optimal regime. If this relationship were reversed, we would face much more severe data scarcity problems. This finding suggests that model size, not data, might be the primary bottleneck for future progress.
 
 **Anthropic's Research Approach Is Evident**  
-Reading this paper, I could see early signs of what would become Anthropic's research philosophy. The experimental approach - running many controlled experiments to discover patterns rather than starting from a hypothesis - feels similar to their later work like the Transformer Circuits series. This paper seems to contain some of Anthropic's research DNA.
+Reading this paper, I could see early signs of what would become Anthropic's research philosophy. The experimental approach, running many controlled experiments to discover patterns rather than starting from a hypothesis, feels similar to their later work like the Transformer Circuits series. This paper seems to contain some of Anthropic's research DNA.
 
 **Variables Lack Inherent Meaning**  
-A limitation worth noting is that the specific coefficients and exponents in the scaling laws don't have inherent meaning - they're empirically determined and likely depend on the specific data used. While the general form of the relationship probably generalizes, the exact values might differ across domains.
+A limitation worth noting is that the specific coefficients and exponents in the scaling laws don't have inherent meaning, they're empirically determined and likely depend on the specific data used. While the general form of the relationship probably generalizes, the exact values might differ across domains.
 
 ---
 
 ### Summary & Final Thoughts
-The "Scaling Laws" paper provides a remarkably clear picture of how language model performance scales with model size, data, and compute. Its findings have shaped how the entire field approaches training large models, suggesting that bigger is not just better but also more efficient.
+The "Scaling Laws" paper provides a clear picture of how language model performance scales with model size, data, and compute. Its findings have shaped how the entire field approaches training large models, suggesting that bigger is better and also more efficient.
 
 What I appreciate most about this work is how it transforms vague intuitions into precise, quantitative relationships. By establishing these power laws, it gives us a framework for making rational decisions about resource allocation in AI training.
 
-The implications continue to reverberate through AI research. As we haven't yet seen these scaling trends plateau, the guidance from this paper remains highly relevant. In many ways, the current race to build larger and more capable AI systems is a direct result of the insights this paper formalized.
+The implications continue to reverberate through AI research. As we haven't yet seen these scaling trends plateau, the guidance from this paper remains relevant. In many ways, the current race to build larger and more capable AI systems is a direct result of the insights this paper formalized.
 
-This paper truly takes the "Bitter Lesson" to heart - showing that scaling computation provides reliable returns without needing architectural breakthroughs. It's a perspective that has proven incredibly fruitful for advancing AI capabilities.
+This paper takes the "Bitter Lesson" to heart, showing that scaling computation provides reliable returns without needing architectural breakthroughs. It's a perspective that has proven fruitful for advancing AI capabilities.

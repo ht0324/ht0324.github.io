@@ -28,18 +28,18 @@ Now, what current models are doing is moving towards becoming agents. And here's
 
 Constant introspection, just talking to oneself, only gets you so far. And that's exactly the limit I see with first-generation reasoning models, like some of the DeepSeek models or OpenAI's o1. They can think, they can "talk to themselves" on and on, but they can't verify their own thoughts quite reliably.
 
-Compare this to how people generally operate. When "normal" people think, they can self-verify using external tools or interactions. They might talk something through with someone else for verification, or rely on external aids like their iPhone, a book, or a quick search. This analogy is such a simple thing, right? And that's exactly what models like Anthropic's Claude 3.7 Sonnet and OpenAI's o3 are doing now. They excel at interacting with the real world via an external pipeline, a bridge we call "tools."
+Compare this to how people generally operate. When "normal" people think, they can self-verify using external tools or interactions. They might talk something through with someone else for verification, or rely on external aids like their iPhone, a book, or a quick search. This analogy is simple. And that's what models like Anthropic's Claude 3.7 Sonnet and OpenAI's o3 are doing now. They are good at interacting with the real world via an external pipeline, a bridge we call "tools."
 
 ### The Fine Line of Anthropomorphism
 
-When you anthropomorphize a large language model this way, the need for tools and external interaction becomes very obvious. But there's a very key caveat: the internal modeling of an LLM is very different from human cognition. I'm anthropomorphizing for the sake of seeing what LLMs might *benefit from*, what might make them more capable. It's a very fine line to walk.
+When you anthropomorphize a large language model this way, the need for tools and external interaction becomes obvious. But there's a key caveat: the internal modeling of an LLM is very different from human cognition. I'm anthropomorphizing for the sake of seeing what LLMs might *benefit from*, what might make them more capable. It's a fine line to walk.
 
 ### Aren't We All Just Next-Word Predictors?
 
-As this kind of anthropomorphization continues – and it's very easy to do because language models are so persuasive and lifelike – it reminded me of something [Scott Aaronson said](https://youtube.com/watch?v=XgCHZ1G93iA&t=438) a year ago. When LLMs first emerged and there were naysayers arguing "it's just next-word prediction, just statistical modeling," he'd retort (and I'm paraphrasing) "But what about you? Aren't *you* just a next-word predictor? What about your mom?"
+As this kind of anthropomorphization continues, and it's easy to do because language models can seem persuasive and lifelike, it reminded me of something [Scott Aaronson said](https://youtube.com/watch?v=XgCHZ1G93iA&t=438) a year ago. When LLMs first emerged and there were naysayers arguing "it's just next-word prediction, just statistical modeling," he'd retort (paraphrasing) "But what about you? Aren't *you* just a next-word predictor? What about your mom?"
 
 It really kind of cracked me up at the time. If I'd said that to some of my close friends who looked down upon LLMs, they would have fumed, they'd be outraged! But when ChatGPT came out, I intuitively, wholeheartedly agreed with Aaronson's point. My mind hasn't changed on that.
 
-I think as models get more capable, Aaronson's quip – "aren't we just the next-word predictor?" – will basically become true in a functional sense. Recently, LLMs just passed the turing test, but society has moved on like nothing ever happened. Sooner or later, for every verifiable task, model capabilities will likely exceed human capabilities. And still, when that happens, they will *still* be, at their core, next-word predictors. Superhuman next-word predictors, better than us at any given task.
+I think as models get more capable, Aaronson's quip: "aren't we just the next-word predictor?", will become true in a functional sense. Recently, LLMs passed the turing test, but society has moved on like nothing happened. Sooner or later, for every verifiable task, model capabilities will likely exceed human capabilities. And still, when that happens, they will be, at their core, next-word predictors. Superhuman next-word predictors, better than us at any given task.
 
 Then what would we become?

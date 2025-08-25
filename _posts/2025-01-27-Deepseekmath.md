@@ -10,9 +10,9 @@ giscus_comments: true
 
 In this post, I'm reviewing ["DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models"](https://arxiv.org/abs/2402.03300), which introduces DeepSeekMath 7B, a math-specialized language model.  
 
-What stands out about this paper isn't just the performance of DeepSeekMath but the philosophy behind its design. DeepSeek consistently focuses on first-principles thinking—stripping down unnecessary complexity, focusing on what's truly important, and optimizing aggressively for efficiency. Given that DeepSeek operates under serious GPU constraints due to US export regulations, this emphasis on efficiency isn't just a preference but a necessity, shaping their entire research trajectory.  
+What stands out about this paper is the performance of DeepSeekMath and also the philosophy behind its design. DeepSeek consistently focuses on first-principles thinking: stripping down unnecessary complexity, focusing on what's important, and optimizing for efficiency. Given that DeepSeek operates under serious GPU constraints due to US export regulations, this emphasis on efficiency is a necessity that shapes their research trajectory.  
 
-The key technical contribution of this paper is **Group Relative Policy Optimization (GRPO)**—a modification of Proximal Policy Optimization (PPO) that eliminates the need for a separate value model, making reinforcement learning (RL) significantly more efficient.  
+The key technical contribution of this paper is **Group Relative Policy Optimization (GRPO)**: a modification of Proximal Policy Optimization (PPO) that eliminates the need for a separate value model, making reinforcement learning (RL) more efficient.  
 
 ---
 
@@ -38,18 +38,18 @@ DeepSeek, as a company, has repeatedly [emphasized](https://www.thefai.org/posts
 One of the biggest takeaways from this paper is how DeepSeek consistently strips things down to what actually matters. The removal of the value model in PPO is a prime example of this. Instead of treating it as an unavoidable cost, they found a way to compute advantage **without it**, saving compute while still aligning with the core principle of PPO.
 
 **Reinforcement Learning Efficiency Can Directly Impact Model Performance**  
-A lot of research in RL for LLMs focuses on making models "better," but this paper indirectly makes another point—**efficiency itself is a performance factor**. If you can run 2x or 3x more RL iterations for the same compute budget, you might end up with a better-trained model even if the method itself isn't inherently more powerful. This is a perspective that isn't always emphasized but makes a lot of sense in practice.
+A lot of research in RL for LLMs focuses on making models "better," but this paper indirectly makes another point: **efficiency itself is a performance factor**. If you can run 2x or 3x more RL iterations for the same compute budget, you might end up with a better-trained model even if the method itself isn't inherently more powerful. This is a perspective that isn't always emphasized but makes sense in practice.
 
-**GRPO is an Elegant Fix to a Known Problem**  
-PPO's requirement for a separate value model has long been a pain point due to its added complexity and compute cost. GRPO solves this by leveraging relative ranking instead of absolute value estimation. What I like about this approach is that it's not just a random heuristic—it actually aligns **better** with the fundamental idea of PPO while also making it more practical. This kind of solution—where something becomes both *simpler* and *better*—is rare and always worth paying attention to.
+**GRPO Addresses a Known Problem**  
+PPO's requirement for a separate value model has long been a pain point due to its added complexity and compute cost. GRPO solves this by leveraging relative ranking instead of absolute value estimation. What I like about this approach is that it's not a random heuristic; it aligns **better** with the fundamental idea of PPO while also making it more practical. This kind of solution, where something becomes both *simpler* and *better*, is rare and worth noting.
 
-**DeepSeek's Strategy of Leaning into Efficiency is Paying Off**  
-The efficiency-first approach DeepSeek is taking is starting to show real results. It's easy to get caught up in scaling laws and assume more compute is always better, but DeepSeek is proving that **how** you use that compute is just as important. By optimizing RL efficiency, they can squeeze more training out of their limited resources, which in turn compounds into better models. This approach is clearly working, as seen later in DeepSeek R1, which made a significant impact.
+**DeepSeek's Efficiency-Focused Strategy and Results**  
+The efficiency-first approach DeepSeek is taking is starting to show results. It's easy to get caught up in scaling laws and assume more compute is always better, but DeepSeek suggests that **how** you use that compute is important. By optimizing RL efficiency, they can squeeze more training out of their limited resources, which in turn can compound into better models. This approach appears to be working, as seen later in DeepSeek R1, which had a notable impact.
 
 ---
 
 ### Summary & Final Thoughts  
 
-DeepSeekMath is a great example of how efficiency-driven research can lead to meaningful improvements. GRPO streamlines PPO by removing the need for a value model, reducing computational cost while staying true to the original PPO formulation. This enables DeepSeek to run more RL iterations, which in turn leads to better-trained models.  
+DeepSeekMath is an example of how efficiency-driven research can lead to improvements. GRPO streamlines PPO by removing the need for a value model, reducing computational cost while staying true to the original PPO formulation. This enables DeepSeek to run more RL iterations, which in turn can lead to better-trained models.  
 
-This paper reinforces the idea that **efficiency isn't just a secondary concern—it's a core factor that directly influences model performance**. It also shows how taking a first-principles approach to ML research can lead to both simpler and more effective solutions. While DeepSeekMath itself is a step forward in mathematical reasoning, I think the bigger impact of this work is in how it shapes reinforcement learning efficiency going forward.
+This paper reinforces the idea that **efficiency is a core factor that directly influences model performance**. It also shows how taking a first-principles approach to ML research can lead to both simpler and more effective solutions. While DeepSeekMath itself is a step forward in mathematical reasoning, I think the bigger impact of this work is in how it shapes reinforcement learning efficiency going forward.

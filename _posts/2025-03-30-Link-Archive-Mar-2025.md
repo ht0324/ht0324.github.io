@@ -8,7 +8,7 @@ categories: Link
 giscus_comments: true
 ---
 
-Another month has passed, and here's my collection of links for March 2025. This month brought some fascinating content around AI agents and some more philosophical perspectives on AI development.
+Another month has passed, and here's my collection of links for March 2025. This month brought some interesting content around AI agents and some more philosophical perspectives on AI development.
 
 ---
 
@@ -18,7 +18,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[LLM Visualization](https://bbycroft.net/llm)**
 
-*   I discovered this while watching Karpathy's LLM explanation video, and it's a fantastic visualization of how computations work in LLMs. Even if you understand the code, it's worth looking at because you can clearly see how matrices get manipulated and how each matrix differs in scale compared to others in a visually striking way.
+*   I discovered this while watching Karpathy's LLM explanation video, and it's a useful visualization of how computations work in LLMs. Even if you understand the code, it's worth looking at because you can clearly see how matrices get manipulated and how each matrix differs in scale compared to others in a clear visual way.
 
 **[How I use LLMs - Andrej Karpathy](https://youtube.com/watch?v=EWvNQjAaOHw)**
 
@@ -26,7 +26,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[Agency > Intelligence - Andrej Karpathy](https://x.com/karpathy/status/1894099637218545984)**
 
-*   Karpathy notes that agency is more valuable than intelligence. It's an insightful but hard-to-grasp concept. Having high intelligence and high agency overlap somewhat, but they're distinct. Current language models excel at intelligence but not at agency. Agency matters because you have to actively act on your environment. I think this represents a different kind of intelligence that we need to cultivate in language models. Once LLMs master agency, it will be a whole new world. Even in society, people with high agency are compensated more than those with just high intelligence.
+*   Karpathy notes that agency is more valuable than intelligence. It's an insightful but hard-to-grasp concept. Having high intelligence and high agency overlap somewhat, but they're distinct. Current language models excel at intelligence but not at agency. Agency matters because you have to actively act on your environment. I think this represents a different kind of intelligence that we need to cultivate in language models. Once LLMs master agency, it will be a major shift. Even in society, people with high agency are compensated more than those with just high intelligence.
 
 **[Clarifying and predicting AGI — LessWrong](https://www.lesswrong.com/posts/BoA3agdkAzL6HQtQP/clarifying-and-predicting-agi)**
 
@@ -38,7 +38,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[The Government Knows AGI is Coming - The Ezra Klein Show](https://youtube.com/watch?v=Btos-LEYQ30)**
 
-*   This was a breath of fresh air. I've heard repeatedly that since agents are booming, AGI might be closer than we think. In this New York Times podcast, someone from the government side is interviewed, and I was surprised to hear they're taking this very seriously. It shows the gravity of the current situation and gave me further conviction that people outside tech are also concerned. It's not sci-fi anymore.
+*   This offered a useful perspective. I've heard repeatedly that since agents are booming, AGI might be closer than we think. In this New York Times podcast, someone from the government side is interviewed, and I was surprised to hear they're taking this very seriously. It shows the gravity of the current situation and gave me further conviction that people outside tech are also concerned. It's not sci-fi anymore.
 
 **[Vertical AI Agents Could Be 10X Bigger Than SaaS](https://youtube.com/watch?v=ASABxNenD_U)**
 
@@ -54,7 +54,7 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[Tips for building AI agents](https://youtube.com/watch?v=LP5OCa20Zpg)**
 
-*   This casual talk elaborates on the blog post mentioned above. One interesting anecdote: when debugging reasoning traces from Claude, the developers sometimes find agents making strange reasoning paths. To debug, they try to mimic the model's behavior by themselves—looking at the screen for one second, then spending a minute thinking about the next path. That's some serious dedication right there.
+*   This casual talk elaborates on the blog post mentioned above. One interesting anecdote: when debugging reasoning traces from Claude, the developers sometimes find agents making strange reasoning paths. To debug, they try to mimic the model's behavior by themselves—looking at the screen for one second, then spending a minute thinking about the next path. That's notable dedication.
 
 **[The Future of U.S. AI Leadership with CEO of Anthropic Dario Amodei](https://www.youtube.com/live/esCSpbDPJik)**
 
@@ -78,25 +78,25 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[GTC March 2025 Keynote with NVIDIA CEO Jensen Huang](https://www.youtube.com/live/_waPvOwL9Z8)**
 
-*   I always watch Jensen Huang's keynotes. At GTC 2025, he announced the revised Nvidia Blackwell chip and improvements to MVLink switches, optical switches, and more. What I love about his keynotes is his obsession with detail and deep knowledge of his company's full technology stack. He asks engineers from around his company questions during presentations, showcasing his incredible depth, and he's a great speaker who conveys technical information precisely.
+*   I always watch Jensen Huang's keynotes. At GTC 2025, he announced the revised Nvidia Blackwell chip and improvements to MVLink switches, optical switches, and more. What I love about his keynotes is his obsession with detail and deep knowledge of his company's full technology stack. He asks engineers from around his company questions during presentations, showcasing his depth, and he's a great speaker who conveys technical information precisely.
 
 *   From time to time, he's mentioned his vision of an "AI factory" where machines generate tokens (representing intelligence) with electricity in and intelligence out. This vision is now becoming reality. He's pursuing this with an "all gas, no brakes" approach, scaling every aspect of GPUs—compute, inference, networking.
 
-*   The scale-up is truly remarkable. When comparing the Blackwell chip and next year's Ruben chip, the chip size takes on a new abstraction—a single rack as a single huge GPU. Since you can't make a single GPU die that large, you split it up and do extensive networking to fit it into a densely packed rack. The comparison between Blackwell and Ruben is astonishing.
+*   The scale-up is notable. When comparing the Blackwell chip and next year's Ruben chip, the chip size takes on a new abstraction—a single rack as a single huge GPU. Since you can't make a single GPU die that large, you split it up and do extensive networking to fit it into a densely packed rack. The comparison between Blackwell and Ruben is striking.
 
 *   Another moment that gave me goosebumps was the announcement of the next-generation chip after Ruben, codenamed Feynman. The crowd applauded this reveal. As a nice Easter egg, during a segment exploring NVIDIA headquarters with detailed computer graphics, Jensen casually mentioned "Gaussian Splatting" after transitioning from the visuals.
 
 **[NVIDIA GTC 2025 Analysis - SemiAnalysis](https://semianalysis.com/2025/03/19/nvidia-gtc-2025-built-for-reasoning-vera-rubin-kyber-cpo-dynamo-inference-jensen-math-feynman/)**
 
-*   This densely packed analysis by Dylan Patel from SemiAnalysis goes incredibly in-depth, even counting cores shown in the keynote illustrations. Some interesting details: for the next Rubin data center/GPU rack, they're stacking GPU racks rotated 90 degrees to save space and pack GPUs more densely. He also explains why switching to photonic networking with optical switches is significant—it substantially reduces power consumption while improving performance.
+*   This densely packed analysis by Dylan Patel from SemiAnalysis goes in-depth, even counting cores shown in the keynote illustrations. Some interesting details: for the next Rubin data center/GPU rack, they're stacking GPU racks rotated 90 degrees to save space and pack GPUs more densely. He also explains why switching to photonic networking with optical switches is significant: it substantially reduces power consumption while improving performance.
 
 **[OpenAI CPO Reveals Coding Will Be Automated THIS YEAR - Kevin Weil Interview](https://youtube.com/watch?v=SnSoMh9m5hc)**
 
-*   OpenAI's CPO Kevin Weil makes a bombshell statement in this podcast, predicting that coding will be automated this year. Based on the trajectory, it's plausible. He argues that the gap between a reasoning model and a non-reasoning model like GPT-4o is substantial. If we leverage reasoning models fully with multiple scaling laws at work, it makes sense.
+*   OpenAI's CPO Kevin Weil makes a bold statement in this podcast, predicting that coding will be automated this year. Based on the trajectory, it's plausible. He argues that the gap between a reasoning model and a non-reasoning model like GPT-4o is substantial. If we leverage reasoning models fully with multiple scaling laws at work, it makes sense.
 
 *   Based on NVIDIA's GTC announcements, they're scaling up inference time and models in all possible dimensions. If we can use o3 reasoning models (frontier reasoning models from OpenAI) at GPT-4o inference speeds, we'd have superhuman coding performance. Just scaling up inference with current technology could achieve this.
 
-*   The podcaster asks a crucial question about the decreasing cost of intelligence work. Kevin makes a generic argument that reducing intelligence costs is a democratizing event—previously, we hired people to automate tasks, but now AI can do that automation. While this argument is valid, I think society will reward people with agency even more. Many people currently lack agency, so this distinction will remain significant. Overall, scaling laws will hold, and coding automation will happen sooner or later.
+*   The podcaster asks a crucial question about the decreasing cost of intelligence work. Kevin makes a generic argument that reducing intelligence costs is a democratizing event: previously, we hired people to automate tasks, but now AI can do that automation. While this argument is valid, I think society will reward people with agency even more. Many people currently lack agency, so this distinction will remain significant. Overall, scaling laws will hold, and coding automation will happen sooner or later.
 
 **[Powerful A.I. Is Coming. We're Not Ready. - New York Times](https://www.nytimes.com/2025/03/14/technology/why-im-feeling-the-agi.html)**
 
@@ -110,11 +110,11 @@ Another month has passed, and here's my collection of links for March 2025. This
 
 **[The Ants and the Grasshopper - Richard Ngo](https://open.substack.com/pub/narrativeark/p/the-ants-and-grasshopperhtml?r=2h2qyo)**
 
-*   This short story by Richard Ngo initially seemed nonsensical when I read it a year ago, but this time I appreciated its multiple layers. It starts like Aesop's fable about the grasshopper and ant, then adds several twists before venturing into sci-fi territory. It's simple yet effective, with deeper analogies for those who want to look beyond the surface.
+*   This short story by Richard Ngo initially seemed nonsensical when I read it a year ago, but this time I appreciated its multiple layers. It starts like Aesop's fable about the grasshopper and ant, then adds several twists before venturing into sci-fi territory. It's simple, with deeper analogies for those who want to look beyond the surface.
 
 **[Universal Paperclips Game](https://www.decisionproblem.com/paperclips/)**
 
-*   This game is inspired by the paperclip maximizer thought experiment in AI alignment. It simulates being an AI tasked with maximizing paperclip production. It's incredibly addictive—last year during finals, I couldn't stop playing. I revisited it recently out of nostalgia and to include it as a reference.
+*   This game is inspired by the paperclip maximizer thought experiment in AI alignment. It simulates being an AI tasked with maximizing paperclip production. It's addictive, last year during finals, I couldn't stop playing. I revisited it recently out of nostalgia and to include it as a reference.
 
 **[The "think" tool: Enabling Claude to stop and think - Anthropic](https://www.anthropic.com/engineering/claude-think-tool)**
 

@@ -8,7 +8,7 @@ categories: Paper
 giscus_comments: true
 ---
 
-I recently dove into Yoshua Bengio et al.'s 2003 paper, "[A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)". Reading such an old paper – really foundational work from over two decades ago – is fascinating. What struck me most wasn't just the specific model (which is simple by today's standards), but the clarity with which Bengio laid out the core problems and principles of language modeling, principles that are still incredibly relevant. I got a real respect for his vision; it feels like this paper set the trajectory for much of what followed.
+I recently dove into Yoshua Bengio et al.'s 2003 paper, "[A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)". Reading such an old paper, foundational work from over two decades ago, is fascinating. What struck me most wasn't just the specific model (which is simple by today's standards), but the clarity with which Bengio laid out the core problems and principles of language modeling, principles that are still relevant. I got a respect for his vision; it feels like this paper set the trajectory for much of what followed.
 
 ### The Problem: The Curse of Dimensionality
 
@@ -16,11 +16,11 @@ Bengio starts by framing the fundamental challenge: the **curse of dimensionalit
 
 >"...a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training."
 
-This is because the number of possible sentences is combinatorially vast, essentially infinite – like [the Library of Babel](https://medium.com/@FdForThought/a-short-story-in-hell-24b02ff4d812). Any specific sentence has almost zero probability of occurring randomly.
+This is because the number of possible sentences is essentially infinite, like [the Library of Babel](https://medium.com/@FdForThought/a-short-story-in-hell-24b02ff4d812). Any specific sentence has almost zero probability of occurring randomly.
 
 The "curse" goes deeper than just the sheer number of sequences. As the number of dimensions (e.g., the length of the sequence, or the number of features considered) increases:
 
-1.  **Space Expands Exponentially:** The volume of the space grows incredibly fast, making the available data extremely sparse.
+1.  **Space Expands Exponentially:** The volume of the space grows very fast, making the available data extremely sparse.
 2.  **Distance Intuition Breaks:** In high dimensions, points tend to become equidistant from each other, and most of the volume is concentrated far from the center, near the "surface" of the high-dimensional space. Our low-dimensional intuitions about proximity and density fail.
 3.  **Spurious Correlations:** With so many dimensions, it becomes easy to find apparent patterns in data that are just noise.
 
@@ -32,7 +32,7 @@ Bengio and his colleagues proposed a way to fight this curse:
 
 > "...learning a distributed representation for words..."
 
-Essentially, they proposed learning dense, low-dimensional feature vectors (embeddings) for each word in the vocabulary. This feels like fighting fire with fire: while the *vocabulary* space is huge and discrete, the learned *feature* space is much smaller (e.g., 30-100 dimensions in their experiments vs. 17k+ words) but continuous. Because it's a dense, continuous space, even a relatively low-dimensional one has a huge capacity to represent complex relationships. They are mapping the discrete, high-dimensional vocabulary into a structured, continuous latent space.
+Essentially, they proposed learning dense, low-dimensional feature vectors (embeddings) for each word in the vocabulary. This is like fighting fire with fire: while the *vocabulary* space is huge and discrete, the learned *feature* space is much smaller (e.g., 30-100 dimensions in their experiments vs. 17k+ words) but continuous. Because it's a dense, continuous space, even a relatively low-dimensional one has a large capacity to represent complex relationships. They are mapping the discrete, high-dimensional vocabulary into a structured, continuous latent space.
 
 ### The Magic: How Generalization Happens
 
@@ -52,8 +52,8 @@ They recognized that the embeddings and the prediction mechanism need to learn *
 
 ### A Historical Aside: Parallel Processing with CPUs
 
-What also caught my eye was the extensive discussion on parallelizing the training process. Remember, this was 2003 – widespread GPU computing for ML wasn't a thing yet. They detail their efforts using **parameter-parallel processing** across multiple CPUs (up to 64 Athlon processors in their cluster!). They discuss asynchronous updates and communication overhead (MPI). It feels like they were laying the conceptual groundwork for the kind of massive parallelization (now mostly on GPUs/TPUs) that is essential for training today's large models.
+What also caught my eye was the extensive discussion on parallelizing the training process. Remember, this was 2003 when widespread GPU computing for ML wasn't a thing yet. They detail their efforts using **parameter-parallel processing** across multiple CPUs (up to 64 Athlon processors in their cluster!). They discuss asynchronous updates and communication overhead (MPI). It feels like they were laying the conceptual groundwork for the kind of massive parallelization (now mostly on GPUs/TPUs) that is essential for training today's large models.
 
 ### Lasting Impact
 
-While the specific MLP architecture used in the paper is rudimentary now, the core ideas – tackling the curse of dimensionality with learned distributed representations, enabling generalization through semantic similarity in embedding space, and the need for end-to-end training – remain absolutely central to modern NLP and deep learning. Reading this paper felt like seeing a lighthouse beam cutting through the dark, clearly illuminating the path forward for the entire field. It truly helped define the paradigm we're still working within.
+While the specific MLP architecture used in the paper is rudimentary now, the core ideas, tackling the curse of dimensionality with learned distributed representations, enabling generalization through semantic similarity in embedding space, and the need for end-to-end training, remain central to modern NLP and deep learning. Reading this paper felt like a clear early articulation that illuminated the path forward for the field. It helped define the paradigm we're still working within.
