@@ -20,8 +20,8 @@ Hi there! 👋
 
 I'm Hun Tae, a Master's Student in Computer Science at [UC Santa Barbara](https://www.ucsb.edu/) (Fall 2025).
 
-Previously: [University of Texas at Austin](https://www.utexas.edu/) with [Prof. Radu Marculescu](https://radum.ece.utexas.edu/people/) at the [Systems Level Design Group](https://radum.ece.utexas.edu/), and the [HLI Lab](https://hli.skku.edu/) with [Prof. JinYeong Bak](https://nosyu.kr/) at [Sungkyunkwan University](https://www.skku.edu/eng/).
+I'm deeply fascinated by the nature of intelligence, whether it's organic or synthetic. As of now, my current interest lies in [Mechanistic Interpretability](https://transformer-circuits.pub/).
 
-I am interested in a lot of things, but currently I am interested in synthetic data generation and [Mechanistic Interpretability](https://transformer-circuits.pub/).
+Outside of research, I enjoy strength training, biking along the coast, and enjoying science fiction (particularly the works of Denis Villeneuve, Ted Chiang, and Greg Egan). And lately, I’ve been getting into Formula 1 racing!
 
-On this blog: short notes on [papers](/blog/category/paper/) and [other topics](/blog/category/blog/). [Off-hours](/blog/tag/life/): sci-fi films, books, podcasts.
+On this blog, I share concise notes on [papers](/blog/category/paper/) I've read and [other topics](/blog/category/blog/). Occasionally, I also write about [life](/blog/tag/life/): reflections inspired by books and sci-fi worlds that shape how I think.

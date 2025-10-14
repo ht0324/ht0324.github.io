@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Arrived in Santa Barbara for my M.S.!
+Arrived in Santa Barbara for my Master's program!
