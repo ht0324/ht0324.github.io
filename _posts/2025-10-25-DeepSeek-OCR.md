@@ -44,4 +44,4 @@ Twenty years ago, to take notes people have to type and store strings. Today, if
 
 I think we’re getting the answer Ilya hinted at back in 2020. Where does vision stop and language begin? For documents, language lives inside vision. DeepSeek OCR is interesting not because it invents a new modality, but because it treats the obvious with rigor: for documents, seeing beats parsing. Once you accept that, a lot of design choices get simpler.
 
-The fact that labs like Anthropic have long defaulted to image‑based document uploads suggests they already tested this and know it’s more feasible and efficient. It makes you wonder how much frontier models already know—and how far ahead they are.
+The fact that labs like Anthropic have long defaulted to image‑based document uploads suggests they already tested this and know it’s more feasible and efficient. It makes you wonder how much frontier models already know, and how far ahead they are.
