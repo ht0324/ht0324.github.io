@@ -70,8 +70,8 @@ Despite this, the distilled model performed well on classifying '3's at test tim
 
 ### Final Thoughts
 
-This paper is a classic example of clear insight. The core claim is simple:
+This paper is a classic example of clear insight. The claim is simple, but such a powerful one:
 
 > "...a lot of helpful information can be carried in soft targets that could not possibly be encoded with a single hard target."
 
-Knowledge distillation provides a practical way to harness this information, bridging the gap between powerful-but-cumbersome training models and efficient deployment models. While short, the paper's impact is significant, reflected in its citations. It's a testament to clear thinking and finding simple solutions to important problems.
+
