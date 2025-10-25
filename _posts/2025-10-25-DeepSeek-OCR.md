@@ -24,9 +24,9 @@ Also, I don’t know about ChatGPT, but for a long time, Anthropic’s Claude se
 
 This also reminded me of a 2020 Lex Fridman conversation with Ilya Sutskever:
 
-> [Ilya Sutskever:](https://youtu.be/13CZPWmke6A?t=1566) Where does vision stop and language begin? If I show you a piece of paper with letters on it, you have a vision system, you say it’s the best human‑level vision system, I open a book and show you letters: will it understand how these letters form into words and sentences and meaning? Is this part of the vision problem?
+> [Ilya Sutskever:](https://youtu.be/13CZPWmke6A?t=1566) Where does vision stop and language begin? ... You have a vision system, you say it’s the best human‑level vision system, I open a book and show you letters: will it understand how these letters form into words and sentences and meaning? Is this part of the vision problem?
 
-> [Lex Fridman:](https://youtu.be/13CZPWmke6A?t=1612) Where does vision stop and language begin? Thats an really interesting question... One possibility is that it’s impossible to achieve really deep understanding in either images or language without basically using the same kind of system, so you’re going to get the other for free...   
+> [Lex Fridman:](https://youtu.be/13CZPWmke6A?t=1612) Thats an really interesting question... One possibility is that it’s impossible to achieve really deep understanding in either images or language without basically using the same kind of system, so you’re going to get the other for free...   
 > Ilya Sutskever: A lot of it depends on your definitions of perfect vision: because really, you know, reading is vision. but should it count?
 
 I emphasize again: this was recorded in 2020. Five years is a long time in this field. But still, when I think of this converstation, there is a lot of food for thought.
