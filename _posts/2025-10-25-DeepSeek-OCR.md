@@ -8,7 +8,7 @@ categories: Blog
 giscus_comments: true
 ---
 
-Recently I’ve been trying to get along with school and all the coursework and settling into a new environment. So I wasn’t putting much effort into reading papers, which I used to enjoy. But today was different. I found a paper that pulled me back in: [DeepSeek OCR](https://arxiv.org/abs/2510.18234). It’s a peculiar paper in a good way. I like DeepSeek’s papers: they’re thorough and open, they don’t hide things from researchers.
+Recently I’ve been trying to get along with school and all the coursework and settling into a new environment. So I wasn’t putting much effort into reading papers, which I used to enjoy. But this week was different. I found a paper that pulled me back in: [DeepSeek OCR](https://arxiv.org/abs/2510.18234). It’s a peculiar paper in a good way. I like DeepSeek’s papers: they’re thorough and open, they don’t hide things from researchers.
 
 Depending on your interpretation, its findings are very much aligned with the Bitter Lesson.
 
