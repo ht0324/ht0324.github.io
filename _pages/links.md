@@ -27,6 +27,7 @@ giscus_comments: true
 [Jim Keller: The Future of Computing](https://youtube.com/watch?v=G4hL5Om4IJ4) by Lex Fridman   
 [George Hotz: Tiny Corp](https://youtube.com/watch?v=dNrTrx42DGQ) by Lex Fridman   
 [Aravind Srinivas: Perplexity CEO on Future of AI](https://youtube.com/watch?v=e-gwvmhyU7A) by Lex Fridman   
+[Andrej Karpathy Episode](https://youtu.be/lXUZvyajciY?si=IHqRfimtEjBMAh6v) by Dwarkesh Patel      
 
 
 ### Short Science Fiction
@@ -36,5 +37,6 @@ giscus_comments: true
 ### Novels
 [Neuromancer](https://en.wikipedia.org/wiki/Neuromancer) by William Gibson   
 [Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest) by David Foster Wallace   
+[Story of Your Life](https://en.wikipedia.org/wiki/Story_of_Your_Life) by Ted Chiang   
 [The Three-Body Problem](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) by Liu Cixin   
 [Permutation City](https://en.wikipedia.org/wiki/Permutation_City) by Greg Egan   
