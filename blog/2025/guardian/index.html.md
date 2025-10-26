@@ -1,0 +1,47 @@
+# AI as Personal Guardians
+_Published: 2025-04-19_
+_Tags: AI_
+_Categories: Blog_
+_Original: https://ht0324.github.io/blog/2025/guardian/_
+
+<p>I’ve been thinking a lot about how LLMs might reshape society, and a thought clicked: AI could become <strong>personal guardians</strong> for each of us.</p>
+
+<p>The background is this: As I’ve <a href="https://ht0324.github.io/blog/2025/sys1/">discussed before</a>, context is important for LLMs. Even now, the insights they provide in split-second decisions can be helpful. They aren’t perfect, but the intelligence they offer brings value. The main thing limiting their ability to help us more consistently is <em>access</em>. If we don’t actively query the model with the right context, it can’t respond to our specific, nuanced needs. Our lives are complex, and the same query can mean different things depending on the web of our individual circumstances.</p>
+
+<p>So, the context an LLM needs to be truly helpful is immense and deeply personal.</p>
+
+<h3 id="beyond-universal-assistants">Beyond Universal Assistants</h3>
+
+<p>Now, the idea of a universal AI assistant isn’t new – think <em>Her</em> or Jarvis. We all nod along, assuming something like that is coming. But I don’t think most people grasp the gravity of this, the potential impact if put into the palm of our hands. It will touch on the nature of our experience.</p>
+
+<p>What I envision is this: Imagine wearing a small device, maybe a pendant, that continuously and passively records context from your daily life – conversations you have, things you hear, places you go, maybe even subtle reactions. Right now, most of this rich contextual data is <a href="https://ht0324.github.io/blog/2025/ephemeral/">ephemeral</a>, lost the moment it happens because we don’t record our everyday lives.</p>
+
+<p>If this data were captured objectively, it could provide the grounding LLMs need to become more helpful.</p>
+
+<h3 id="confronting-our-subjectivity">Confronting Our Subjectivity</h3>
+
+<p>Here’s why I think people underestimate the impact: we don’t fully appreciate how subjective, limited, fragile, and unreliable our own perception and memory are. Psychological literature makes it clear: human memory isn’t a perfect recording device. We reshape memories, constructing narratives to make sense of the world. Our accounts of the same event differ from person to person, filtered through our limited viewpoints and emotional states. We aren’t purely rational decision-makers.</p>
+
+<p>An AI, fed with continuous, objective context, could hold up a mirror to this subjectivity. It could help us see patterns and realities that our own minds obscure.</p>
+
+<h3 id="the-guardians-role">The Guardian’s Role</h3>
+
+<p>Imagine the possibilities:</p>
+
+<ol>
+  <li><strong>Objective Recall &amp; Comparison:</strong> The AI could provide an objective summary of your day, week, month, or even year. It could compare your activities, moods, or interactions over time in ways impossible for our biased human memory. “How does my interaction pattern today compare to last month?” is a question we can barely guess at; the AI could answer with data.</li>
+  <li><strong>Personalized Planning:</strong> Based on this deep, objective understanding of your past actions, goals, and context, it could suggest optimal plans for tomorrow, complete with relevant reminders grounded in <em>your</em> actual history.</li>
+  <li><strong>Social Shield:</strong> For interactions, it could offer insights or warnings. Imagine someone easily manipulated, such as an elderly person. This AI could recognize patterns of deception or fraud that the person might miss, acting as a protective layer by providing information they didn’t previously have.</li>
+</ol>
+
+<p>Thinking about this “social shield” aspect, particularly its potential to guardrail individuals away from harmful decisions, is when the core concept clicked for me. Imagine the AI noticing subtle health patterns and suggesting a check-up, or recognizing manipulative language in a conversation. Preventing bad outcomes by providing timely information, nipping problems in the bud, could be one of the most impactful aspects of this technology. That realization solidified the idea of <strong>“A personal guardian for everyone.”</strong></p>
+
+<p>With such guardians, society could evolve. Individuals might become better decision-makers overall. Imagine consulting your guardian in-depth before making major life choices: which university course to take, which habit you didn’t notice is detrimental to your health, which job offer is best aligned with your long-term patterns and goals.</p>
+
+<h3 id="a-guardian-in-the-cloud">A Guardian in the Cloud</h3>
+
+<p>This isn’t about the AI becoming a godlike entity dictating our lives. It’s about having an immensely valuable and practical <em>tool</em> – an intelligent counterpart striving to help <em>us</em> make better decisions, understand ourselves more clearly, and navigate the world more effectively.</p>
+
+<p>I believe this is possible with current technology, perhaps needing refinement and scale. When (not if) this kind of personalized, context-aware AI guardian becomes widespread, the impact on individual productivity, efficiency, and overall well-being could be large. Everyone could be better off <em>with</em> their guardian than without.</p>
+
+<p>It leads directly to the future Yuval Noah Harari described, where algorithms might genuinely know you better than you know yourself in certain aspects. What a fascinating, and perhaps slightly unnerving, time to be alive.</p>

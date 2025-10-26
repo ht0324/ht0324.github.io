@@ -1,0 +1,68 @@
+# Kan
+_Published: 2025-04-03_
+_Original: https://ht0324.github.io/blog/2025/KAN/_
+
+<hr />
+<p>layout: post
+title: KAN - Review
+date: 2025-04-03 20:40:00
+description: Reviewing the Kolmogorov-Arnold Networks paper
+tags: AI
+categories: Paper
+giscus_comments: true
+—</p>
+
+<p>This time, I’m looking at the paper <a href="https://arxiv.org/abs/2404.19756">“Kolmogorov-Arnold Networks”</a> by Liu et al. This paper introduces Kolmogorov-Arnold Networks (KANs), presenting them as a potential alternative to Multi-Layer Perceptrons (MLPs), especially when interpretability is a priority.</p>
+
+<p>The core idea stems from the Kolmogorov-Arnold representation theorem (KAT), which suggests any multivariate continuous function can be broken down into sums and compositions of univariate functions. Unlike MLPs which have fixed activation functions on nodes and learnable linear weights on edges, KANs place learnable activation functions (parameterized as splines) directly on the edges, while nodes simply sum up the incoming signals. This architectural shift is fascinating and has some interesting implications.</p>
+
+<hr />
+
+<h3 id="key-concepts">Key Concepts</h3>
+
+<p><strong>Kolmogorov-Arnold Theorem (KAT) Inspiration</strong><br />
+The network design is inspired by KAT, which states that multivariate functions can be represented using only univariate functions and sums. KANs attempt to learn this kind of decomposition, where complex relationships are built from simpler, learnable 1D functions.</p>
+
+<p><strong>KAN Architecture: Activations on Edges</strong><br />
+The defining feature of KANs is that the learnable components are 1D activation functions situated on the <em>edges</em> of the network graph. These are typically parameterized as B-splines. The <em>nodes</em> simply perform summation, a stark contrast to MLPs where nodes apply fixed non-linearities.</p>
+
+<p><strong>Learnable Activation Functions</strong><br />
+Instead of fixed functions like ReLU or Sigmoid in MLPs, KAN edges learn the shape of their activation function. This allows the network to adapt its non-linearity locally and potentially capture the underlying structure of the data more directly.</p>
+
+<p><strong>Splines and Adaptive Grids</strong><br />
+The learnable edge activations are represented using B-splines defined over a grid. KANs can update these grids during training (“grid extension”), allowing them to allocate more representational power (finer grid resolution) to specific input ranges where the function behaves more complexly.</p>
+
+<hr />
+
+<h3 id="key-takeaways-what-i-learned">Key Takeaways (What I Learned)</h3>
+
+<p><strong>A Different Theoretical Basis (KAT vs. UAT) &amp; The Fourier Analogy</strong><br />
+My initial thought was maybe KANs were aiming to completely replace MLPs. But digging deeper, especially thinking about their foundations, clarified things. MLPs rely on the Universal Approximation Theorem (UAT), focusing on approximation power through linear layers and fixed non-linearities. KANs are built on the Kolmogorov-Arnold Theorem (KAT). It felt analogous to Fourier Transforms: just like Fourier analysis breaks down a complex signal into a sum of simple sine waves, KAT suggests breaking down a complex multivariate function into sums and compositions of simpler, 1D functions. KANs try to <em>learn</em> these fundamental 1D components (the splines on the edges). This difference in theoretical underpinning suggests they might excel at different things – MLPs for general function approximation, KANs perhaps more for interpretability and uncovering mathematical structure when it exists, by learning the ‘basis functions’ directly.</p>
+
+<p><strong>Universal Approximation vs. Practical Reality</strong><br />
+It’s important to remember that both UAT (for MLPs) and KAT (for KANs) imply universal approximation capabilities. Theoretically, given enough capacity, both <em>can</em> approximate any continuous function. However, the <em>way</em> they achieve this and the practical implications are different. It’s not just about <em>if</em> you can approximate, but <em>how</em> efficiently, how trainably, and how interpretably. MLPs are general workhorses, highly optimized for parallel hardware, but often opaque. KANs offer a path to interpretability and potentially better handling of functions with inherent structure, but currently face training speed challenges. Choosing between them involves practical, engineering trade-offs based on the specific problem: do you prioritize raw speed and general approximation (MLP), or interpretability and potentially uncovering symbolic relationships (KAN)? The practical implementation details, like KAN’s spline+SiLU activations or adaptive grids, are crucial “engineering credos” that make the theoretical power usable.</p>
+
+<p><strong>Edges Doing the Work, Not Nodes</strong><br />
+The shift from node-based fixed activations (MLP) to edge-based learnable activations (KAN) is the core architectural change. It feels quite different conceptually, the connections themselves learn the transformations. Nodes just add things up. This structure seems intrinsically linked to the goal of interpretability.</p>
+
+<p><strong>Potentially Dodging the Curse of Dimensionality?</strong><br />
+The paper’s analysis (Theorem 2.1) mentions an approximation error (“residual rate”) that scales independently of the input dimension <em>n</em>. This was a point of confusion initially, but understanding it as the approximation error, not network residuals, was key. If this holds true in practice, it’s a big deal. It suggests KANs might be able to handle high-dimensional functions much more efficiently than traditional methods that suffer from the curse of dimensionality, where complexity grows exponentially with dimensions.</p>
+
+<p><strong>The Interpretability Pipeline: Sparsify, Prune, Symbolify</strong><br />
+This was one of the most appealing aspects. KANs aren’t just interpretable by design; there’s a process. They use regularization (an entropy term plus L1-like norm on splines) to encourage sparsity, then prune away inactive edges/nodes. The really neat part is “symbolification”: the system tries to match the learned spline shapes to known symbolic functions (like <code class="language-plaintext highlighter-rouge">sin</code>, <code class="language-plaintext highlighter-rouge">exp</code>, <code class="language-plaintext highlighter-rouge">x^2</code>, linear). If a match is found, the spline is replaced by the symbolic function, and its parameters are fine-tuned. This pipeline allows potentially extracting clean mathematical formulas from the trained network.</p>
+
+<p><strong>Performance Profile: Slow Training, Potentially Fast Inference</strong><br />
+The benchmarks showed KANs can be very accurate, sometimes beating MLPs, especially on tasks with underlying symbolic structure (like fitting physics equations or solving PDEs). However, the training wall time is significantly longer. MLPs benefit hugely from optimized matrix multiplication on GPUs, while KAN’s spline computations are less parallelizable. The flip side is inference. A pruned and symbolified KAN could be extremely fast (low FLOPS) because evaluating simple symbolic functions is cheap. There was also a thought that pruning KANs might reduce <em>latency</em> more effectively than pruning MLPs, as removing KAN operations might have a more direct impact on serial execution time.</p>
+
+<p><strong>Surprising Image Fitting Performance</strong><br />
+Given the emphasis on mathematical structure, I was a bit surprised KANs performed well on image fitting tasks (like the cameraman photo). The thinking here shifted: maybe it’s not about finding <em>one</em> fundamental equation for the image, but that the image data itself can be very efficiently approximated by combinations of simpler (spline-like) functions, similar to how JPEG uses basis functions. So, KAN’s strength in approximating functions with combinations of simple ones shines here too.</p>
+
+<p><strong>Continual Learning Promise (with Caveats)</strong><br />
+The local nature of B-splines seemed promising for continual learning – changing one part of the function shouldn’t drastically affect others. The paper showed KANs did avoid catastrophic forgetting better than MLPs in a toy example. However, it was also mentioned that this advantage seemed to diminish for <em>deeper</em> KANs, so it’s not a perfect solution yet.</p>
+
+<hr />
+
+<h3 id="summary--final-thoughts">Summary &amp; Final Thoughts</h3>
+<p>Kolmogorov-Arnold Networks offer a genuinely different approach to building neural networks, drawing inspiration directly from representation theory (KAT) to place learnable, spline-based activation functions on network edges. This design prioritizes interpretability and has the potential to uncover underlying mathematical structures in data through a compelling sparsification, pruning, and symbolification pipeline.</p>
+
+<p>While KANs demonstrate strong accuracy, particularly on science-related tasks, and show promise in mitigating the curse of dimensionality and enabling continual learning, their main current drawback is significantly slower training compared to highly optimized MLPs. Despite this, the core ideas feel fresh and powerful. KANs provide a fascinating bridge between traditional numerical approximation and symbolic reasoning, making them a very exciting development to watch, especially for applications in science and engineering where understanding the ‘why’ is just as important as getting the right answer.</p>

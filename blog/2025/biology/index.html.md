@@ -1,0 +1,73 @@
+# Biology
+_Published: 2025-04-07_
+_Original: https://ht0324.github.io/blog/2025/biology/_
+
+<hr />
+<p>layout: post
+title: On the Biology of a Large Language Model – Review
+date: 2025-04-07 11:30:00
+description: Reviewing Anthropic’s paper on exploring LLM internals using Circuit Tracing
+tags: AI
+categories: Paper
+giscus_comments: true
+—</p>
+
+<p>Following up on my review of Anthropic’s <a href="https://transformer-circuits.pub/2025/attribution-graphs/methods.html">“Circuit Tracing: Revealing Computational Graphs in Language Models”</a>, I’m now looking at its companion paper: <a href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html">“On the Biology of a Large Language Model”</a>. This paper takes the methods detailed previously, using Cross-Layer Transcoders (CLTs) and attribution graphs, and applies them to investigate the internal mechanisms of Claude 3.5 Haiku across a variety of tasks.</p>
+
+<p>Anthropic has clearly invested heavily in interpretability, aiming to move beyond treating LLMs as pure black boxes. This paper showcases that effort by attempting to map out the “circuits” or computational pathways the model uses. The “biology” framing feels quite apt; rather than analyzing a system with human-designed logic, it’s more like exploring an organism that has “grown” through training, trying to understand its internal structures and functions. This paper presents the findings from that exploration.</p>
+
+<hr />
+
+<h3 id="key-concepts">Key Concepts</h3>
+
+<p>This paper primarily focuses on the <em>findings</em> derived from applying the Circuit Tracing methodology. The core concepts underpinning these findings are:</p>
+
+<p><strong>Circuit Tracing Recap (via CLTs)</strong><br />
+The fundamental approach relies on the Cross-Layer Transcoder (CLT) methodology detailed in the companion paper. CLTs are used to create an interpretable “replacement model” that emulates the original model’s MLP layers. This replacement uses sparse, learned “features” (ideally representing meaningful concepts) instead of dense neuron activations. CLTs can connect features across layers, allowing for tracing information flow.</p>
+
+<p><strong>Attribution Graphs as Explanations</strong><br />
+For specific prompts, the researchers generate attribution graphs. These graphs visualize how active features, input tokens, and error terms interact and influence each other, ultimately leading to the model’s output token prediction. They serve as the primary tool for hypothesizing about the model’s internal mechanisms.</p>
+
+<p><strong>Supernodes for Simplification</strong><br />
+Given the complexity of raw attribution graphs, the paper often groups related features that play similar roles into “supernodes” (e.g., grouping various “Texas-related” features). This manual abstraction helps in presenting a clearer, higher-level picture of the computational flow.</p>
+
+<p><strong>Intervention-Based Validation</strong><br />
+A key part of the methodology is validating the hypotheses derived from attribution graphs. This involves performing interventions (activating, inhibiting, or swapping features/supernodes) directly within the <em>original</em> model and observing whether the effects on downstream activations and the final output match the predictions from the graph. The success of these interventions lends confidence that the traced circuits reflect genuine mechanisms.</p>
+
+<p><strong>Focus on Diverse Case Studies</strong><br />
+The paper applies this methodology to a wide range of behaviors exhibited by Claude 3.5 Haiku, including multi-step reasoning, poetry generation, multilingual processing, arithmetic, medical diagnosis, hallucination handling, safety refusals, jailbreaks, chain-of-thought faithfulness, and even analyzing a model with a hidden goal. Each case study aims to reveal the specific circuits involved.</p>
+
+<hr />
+
+<h3 id="key-takeaways-what-i-learned">Key Takeaways (What I Learned)</h3>
+
+<p>Reading through the various case studies provided some interesting glimpses into the model’s inner workings:</p>
+
+<p><strong>Multi-step Reasoning (Dallas/Texas/Austin)</strong><br />
+This was a clear example. Seeing the model activate features for ‘Dallas’, then ‘Texas’, then combine ‘Texas’ with ‘capital’ features to output ‘Austin’ felt like watching it reason. The feature swapping experiment, replacing ‘Texas’ features with ‘California’ features and getting ‘Sacramento’, was convincing. It showed that these learned features aren’t just correlations; they represent concepts the model uses causally. It felt like directly manipulating the model’s internal knowledge representation. This wouldn’t be possible with opaque neuron activations.</p>
+
+<p><strong>Planning in Poems (Carrot/Rabbit/Habit)</strong><br />
+This was quite surprising. I initially assumed the model would improvise rhymes word-by-word. Instead, the analysis showed it <em>plans</em> potential rhyming words (‘rabbit’, ‘habit’) on the newline token <em>before</em> starting the line. These “planned word” features then guide the generation of the entire line. What struck me, looking at the interactive graph and thinking about the prompt (“He saw a <strong>carrot</strong>…”), was the likely influence of ‘carrot’ biasing the model towards ‘rabbit’ over ‘habit’. Carrots and rabbits are so strongly linked! While the paper focused on the rhyming circuit, this semantic priming seems like a crucial, parallel influence. The use of the newline token as a “planning site” was also a neat finding.</p>
+
+<p><strong>Multilingual Circuits</strong><br />
+The paper confirmed the existence of both language-specific features (often near input/output) and more abstract, language-agnostic features (often in middle layers). It was interesting that Haiku showed more language-agnostic representations than smaller models, suggesting this abstraction ability correlates with capability. The interventions swapping the operation (antonym/synonym), operand (small/hot), or language itself worked well, demonstrating modularity. The fact that intervention thresholds (like needing ~4x activation for the synonym swap) were consistent across languages for the <em>same</em> intervention supports the idea that they were manipulating genuinely multilingual features. It makes you wonder if the model develops a kind of internal “interlingua” or just learns very robust cross-lingual mappings.</p>
+
+<p><strong>Addition (Lookup Tables &amp; Generalization)</strong><br />
+The way the model performs addition wasn’t through a standard algorithm but via learned heuristics and “lookup table” features (e.g., a feature activating for inputs ending in 6 and 9, promoting outputs ending in 5). This reminded me of memorizing multiplication tables in elementary school; it seems the LLM found a similar strategy. The operand plots visualizing feature activations were clear. Also notable was the generalization: seeing a feature for <code class="language-plaintext highlighter-rouge">_6 + _9 -&gt; _5</code> activate correctly not just in <code class="language-plaintext highlighter-rouge">calc: 36+59=</code> but also in contexts like calculating citation years or filling spreadsheet values showed reuse of an abstract mechanism.</p>
+
+<p><strong>Entity Recognition and Hallucinations</strong><br />
+The idea of a “default refusal” circuit that assumes unfamiliarity, which then gets inhibited by “known entity” features (like for ‘Michael Jordan’), provides a plausible mechanism for how models decide whether to answer or decline. It also explains some hallucinations: if a name (like ‘Andrej Karpathy’) is familiar enough to trigger the “known” features, the model might suppress its refusal even if it lacks the specific requested information (a paper he wrote), leading it to guess.</p>
+
+<p><strong>Jailbreaks (BOMB Example)</strong><br />
+This was also interesting. The model didn’t initially refuse because the obfuscated input prevented it from “understanding” the request was for “BOMB” until it actually generated the word. It had to see itself write “BOMB” via one circuit before another circuit could flag it as problematic. Even then, the drive for grammatical coherence and completing its sentence delayed the refusal. It highlights how different internal processes can compete and how surface-level constraints (like grammar or following instructions) can sometimes override safety mechanisms, at least temporarily.</p>
+
+<hr />
+
+<h3 id="summary--final-thoughts">Summary &amp; Final Thoughts</h3>
+<p>The “On the Biology of a Large Language Model” paper provides a rich set of case studies demonstrating how circuit tracing can illuminate the complex, often non-intuitive mechanisms inside LLMs. It moves interpretability from abstract concepts towards concrete analysis of specific computations.</p>
+
+<p>The “biology” metaphor holds up well. We’re not reverse-engineering clean, human-designed code; we’re exploring a complex system that learned its strategies organically. The process feels very much like neuroscience: probing and mapping to understand function. The interventions, especially feature swapping, are akin to stimulating or lesioning specific brain regions to see the effect. It feels like we’re picking and probing a digital mind in its early stages.</p>
+
+<p>One notable implication for me is the potential for <strong>practical data curation and model improvement</strong>. If we can use these circuit-tracing tools to understand <em>how</em> a model represents concepts or performs reasoning steps, we can potentially identify <em>which</em> data points led to faulty or undesirable circuits. Imagine pinpointing data that causes a specific bias or a logical error reflected in the model’s internal structure. This insight could allow engineers to “massage the data” more effectively, pruning harmful examples or strategically adding data to reinforce beneficial circuits. Machine learning is heavily reliant on data quality, and this approach offers a path to making data curation less of a guessing game and more of a targeted intervention based on internal model understanding.</p>
+
+<p>While the methods have limitations (unexplained variance, complexity, potential unfaithfulness), this work represents a step forward. It provides findings and also a methodology and a set of tools that allow us to ask detailed questions about <em>how</em> these powerful models arrive at their answers, paving the way for deeper understanding and potentially more reliable and controllable AI.</p>
