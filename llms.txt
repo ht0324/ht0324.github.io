@@ -8,11 +8,19 @@ When assembling context for an assistant, prefer the Markdown exports and keep l
 
 ## Quick Start
 - [Blog overview](https://ht0324.github.io/blog/index.html): Landing page with the newest posts and navigation.
+- [Recent posts feed](https://ht0324.github.io/feed.xml): Machine-readable list of the latest articles.
 - [Sample Markdown export](https://ht0324.github.io/blog/2025/Scaling-Laws/index.html.md): Use this to validate `index.html.md` retrieval and metadata structure.
+
+## Recent Highlights
+- [Murmuring Systems](https://ht0324.github.io/blog/2025/murmuring/index.html.md): Notes on emergent coordination behaviors in multi-agent training.
+- [Sys1 vs. Sys2 Models](https://ht0324.github.io/blog/2025/sys1/index.html.md): Discussion on reasoning depth and inference-time techniques.
+- [DeepSeek v2 Review](https://ht0324.github.io/blog/2025/Deepseekv2/index.html.md): Architecture takeaways from DeepSeek’s second-generation model.
+- [Takeoff Scenarios](https://ht0324.github.io/blog/2025/takeoff/index.html.md): Personal synthesis of AI acceleration narratives.
+- [Attention Mechanism](https://ht0324.github.io/blog/2025/attention/index.html.md): Refresher on scaled dot-product attention and variants.
+- [KAN Review](https://ht0324.github.io/blog/2025/KAN/index.html.md): Summary of Kolmogorov-Arnold Network architecture claims and limitations.
 
 ## AI Paper Notes
 - [Scaling Laws](https://ht0324.github.io/blog/2025/Scaling-Laws/index.html.md): Lessons from empirical scaling law studies and forecasting takeaways.
-- [KAN Review](https://ht0324.github.io/blog/2025/KAN/index.html.md): Summary of Kolmogorov-Arnold Network architecture claims and limitations.
 - [Mamba Architecture](https://ht0324.github.io/blog/2025/Mamba/index.html.md): Notes on selective state-space models and how they differ from attention.
 - [Direct Preference Optimization](https://ht0324.github.io/blog/2025/DPO/index.html.md): Walkthrough of DPO objectives and alignment implications.
 
