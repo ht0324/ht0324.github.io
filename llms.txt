@@ -1,0 +1,28 @@
+# Hun Tae Kim - Food For Thought
+
+> Personal site by Hun Tae Kim featuring curated summaries of AI research, product notes, and reflections on technology and media. Articles focus on digesting primary papers for practitioners and tracking fast-moving model releases.
+
+The site is built with Jekyll. Blog posts publish under `/blog/<year>/<slug>/`. Each article now ships with a clean Markdown export stored at the same URL plus `index.html.md`. These exports open with normalized metadata (`Published`, `Tags`, `Categories`, `Original`) followed by the article body and omit navigation chrome.
+
+When assembling context for an assistant, prefer the Markdown exports and keep link archives handy for topical discovery. Fetching the RSS feed at `https://ht0324.github.io/feed.xml` lists the most recent posts.
+
+## Quick Start
+- [Blog overview](https://ht0324.github.io/blog/index.html): Landing page with the newest posts and navigation.
+- [Sample Markdown export](https://ht0324.github.io/blog/2025/Scaling-Laws/index.html.md): Use this to validate `index.html.md` retrieval and metadata structure.
+
+## AI Paper Notes
+- [Scaling Laws](https://ht0324.github.io/blog/2025/Scaling-Laws/index.html.md): Lessons from empirical scaling law studies and forecasting takeaways.
+- [KAN Review](https://ht0324.github.io/blog/2025/KAN/index.html.md): Summary of Kolmogorov-Arnold Network architecture claims and limitations.
+- [Mamba Architecture](https://ht0324.github.io/blog/2025/Mamba/index.html.md): Notes on selective state-space models and how they differ from attention.
+- [Direct Preference Optimization](https://ht0324.github.io/blog/2025/DPO/index.html.md): Walkthrough of DPO objectives and alignment implications.
+
+## Diffusion & Generative Models
+- [DDPM Review](https://ht0324.github.io/blog/2025/DDPM/index.html.md): Step-by-step explanation of the denoising diffusion probabilistic model.
+- [GAN Refresher](https://ht0324.github.io/blog/2025/GAN/index.html.md): Revisits GAN training dynamics, stability tricks, and evaluation metrics.
+- [VAE Primer](https://ht0324.github.io/blog/2025/VAE/index.html.md): Covers evidence lower bound intuition and latent variable structure.
+- [VQ-VAE Walkthrough](https://ht0324.github.io/blog/2025/VQVAE/index.html.md): Discusses discrete latent modeling and codebook training.
+
+## Archives
+- [January 2025 Link Archive](https://ht0324.github.io/blog/2025/Link-Archive-Jan-2025/index.html.md): Monthly roundup of noteworthy AI and product readings.
+- [February 2025 Link Archive](https://ht0324.github.io/blog/2025/Link-Archive-Feb-2025/index.html.md): Highlights of February 2025 research and news.
+- [March 2025 Link Archive](https://ht0324.github.io/blog/2025/Link-Archive-Mar-2025/index.html.md): Curated links and commentary for March 2025.
