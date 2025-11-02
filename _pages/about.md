@@ -20,7 +20,7 @@ Hi there! 👋
 
 I'm Hun Tae, a Master's Student in Computer Science at [UC Santa Barbara](https://www.ucsb.edu/) (Fall 2025).
 
-I'm deeply fascinated by the nature of intelligence, whether it's organic or synthetic. As of now, my current interest lies in [Mechanistic Interpretability](https://transformer-circuits.pub/) and agentic systems.
+I'm deeply fascinated by the nature of intelligence, whether it's organic or synthetic. As of now, my current interest lies in [Mechanistic Interpretability](https://transformer-circuits.pub/) and [agentic systems](/blog/2025/o3-o4mini2/).
 
 Outside of research, I enjoy strength training, biking along the coast, and enjoying science fiction (particularly the works of Denis Villeneuve, Ted Chiang, and Greg Egan). And lately, I’ve been getting into Formula 1 and surfing! 🏎️ 🏄‍♂️
 
